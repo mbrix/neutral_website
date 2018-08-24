@@ -3,4 +3,47 @@
 
 * {
   font-family: 'Poppins', sans-serif;
+  font-weight: 'light';
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+h1 { font-size: 4em; }
+h2 { font-size: 2.1875em; }
+h3 { font-size: 1.33em; }
+
+header {
+  background: url(/src/images/topo.svg) no-repeat;
+}
+
+nav {
+  font-family: $header-font;
+  text-transform: uppercase;
+  a {
+    color: $body-color;
+  } 
+}
+
+.hero {
+  h1 {
+    font-weight: 100;
+    color: #000000;
+  }
+  h3 {
+    font-weight: 200;
+    color: #000000;
+  } 
+}
+
+.backers {
+  background: url(/src/images/swoosh.svg) no-repeat;
+  height: 529px;
+  color: white;
+  h5 {
+    font-weight: 200;
+  }
 }

@@ -7,13 +7,16 @@ module.exports = {
       test: /\.js$/,
       exclude: /node_modules/,
       use: {
-        loader: "babel-loader",
+        loader: 'babel-loader',
       },
     }, {
       test: /\.html$/,
       use: [{
         loader: 'html-loader',
-        options: { minimize: true },
+        options: {
+          interpolate: true,
+          minimize: true,
+        },
       }],
     }, {
       test: /\.scss$/,
@@ -38,4 +41,3 @@ module.exports = {
     }),
   ],
 };
-
