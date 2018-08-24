@@ -17,7 +17,11 @@ h2 { font-size: 2.1875em; }
 h3 { font-size: 1.33em; }
 
 header {
-  background: url(/src/images/topo.svg) no-repeat;
+  /*background: url(/src/images/topo.svg) no-repeat;*/
+  video {
+    opacity: .03;
+    z-index: -1;
+  }
 }
 
 nav {
