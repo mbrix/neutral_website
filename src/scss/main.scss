@@ -13,8 +13,12 @@ a {
 }
 
 h1 { font-size: 4em; }
-h2 { font-size: 2.1875em; }
+h2 { font-size: 2.1875em; text-transform: uppercase; font-weight: 100; }
 h3 { font-size: 1.33em; }
+
+hr {
+  border-width: 4px;
+}
 
 header {
   /*background: url(/src/images/topo.svg) no-repeat;*/
@@ -45,16 +49,35 @@ nav {
 
 .backers {
   background: url(/src/images/swoosh.svg) no-repeat;
-  height: 529px;
+  background-size: cover;
+  min-height: 570px;
   color: white;
   h5 {
     font-weight: 200;
   }
 }
 
-.triptych-square {
+.triptych .card {
   box-shadow: .5px .9px 21px 0px rgba(0,0,0,.04);
   h4 {
-    font-size: 1.375em;
+    font-size: 1.2em;
   }
+  .card-footer {
+    border: 0;
+    background: none;
+  }
+}
+
+.participate {
+  background-color: #353535;
+}
+.social-circle {
+  height: 147px;
+  width: 147px;
+  border-radius: 294px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 27px 0px rgba(0,0,0,.43);
+  font-size: 5em;
 }
