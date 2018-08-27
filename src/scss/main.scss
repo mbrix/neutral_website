@@ -71,13 +71,23 @@ nav {
 .participate {
   background-color: #353535;
 }
+
 .social-circle {
   height: 147px;
   width: 147px;
+  margin: 0px auto 10px;
   border-radius: 294px;
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0px 0px 27px 0px rgba(0,0,0,.43);
   font-size: 5em;
+}
+
+.social.card {
+  text-align: center;
+  h4 {
+    font-size: 1.2em;
+  }
+  border: none;
 }
