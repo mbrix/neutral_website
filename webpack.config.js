@@ -28,6 +28,12 @@ module.exports = {
     }, {
       test: /\.css$/,
       use: [MiniCssExtractPlugin.loader, 'css-loader'],
+    }, {
+      test: /\.(png|svg|jpg|gif)$/,
+      use: [
+        'file-loader',
+        'img-loader',
+      ],
     }],
   },
   plugins: [
