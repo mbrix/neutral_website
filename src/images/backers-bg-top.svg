@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1624 235" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>top</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5842.00021,517.000293 C5842.00021,517.000293 6632.00005,319.000755 7468.99979,372.000516 L7468.99979,1.000632 C7468.99979,1.000632 6708.99962,309.000663 5843.00041,204.000735 C5845.00082,204.000735 5842.00021,517.000293 5842.00021,517.000293 Z" id="path-1"></path>
+        <filter x="-1.9%" y="-6.0%" width="103.9%" height="112.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0.5" dy="0.9" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M5842.00021,527.000139 C5842.00021,527.000139 6632.00005,329.000666 7468.99979,382.000291 L7468.99979,21.000185 C7468.99979,21.000185 6708.99962,311.00039 5843.00041,206.000307 C5845.00082,206.000307 5842.00021,527.000139 5842.00021,527.000139 Z" id="path-3"></path>
+        <filter x="-1.9%" y="-6.1%" width="103.9%" height="112.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0.5" dy="0.9" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Blue-swoosh" transform="translate(-5845.000000, 0.000000)">
+            <g id="Shape-3">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#92A1B4" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Shape-3-copy">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#7490B1" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -48,9 +48,7 @@ nav:not(i) {
 }
 
 .backers {
-  background: url(/src/images/swoosh.svg) no-repeat;
-  background-size: cover;
-  min-height: 570px;
+  background-color: $primary;
   color: white;
   h5 {
     font-weight: 200;
@@ -124,28 +122,35 @@ nav:not(i) {
 }
 
 .transition {
-  &.participate.top {
-    background: url(/src/images/participate-bg-top.svg) no-repeat;
-    background-position: bottom center;
-    position: absolute;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  &.top {
     bottom: 0;
+    background-position: bottom center;
+  }
+  &.bottom {
+    top: 0;
+  }
+  &.backers.top {
+    background-image: url(/src/images/backers-bg-top.svg);
+    height: 14.42vw;
+  }
+  &.backers.bottom {
+    background-image: url(/src/images/backers-bg-bottom.svg);
+    height: 9.88vw;
+  }
+  &.participate.top {
+    background-image: url(/src/images/participate-bg-top.svg);
     height: 5.85vw;
-    width:100%;
   }
   &.participate.bottom {
-    background: url(/src/images/participate-bg-bottom.svg) no-repeat;
-    position: absolute;
-    top: 0;
+    background-image: url(/src/images/participate-bg-bottom.svg);
     height: 7.5vw;
-    width:100%;
   }
   &.involved.top {
-    background: url(/src/images/involved-bg-top.svg) no-repeat;
-    background-position: bottom center;
-    position: absolute;
-    bottom: 0;
+    background-image: url(/src/images/involved-bg-top.svg);
     height: 8vw;
-    width:100%;
   }
 }
 
