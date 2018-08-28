@@ -101,6 +101,7 @@ nav:not(i) {
   box-shadow: .5px .9px 21px 0px rgba(0,0,0,.04);
   h4 {
     font-size: 1.2em;
+    font-weight: 400;
   }
   .card-footer {
     border: 0;
@@ -174,11 +175,21 @@ nav:not(i) {
   }
   border: none;
   background-color: transparent;
+  .card-body {
+    padding: .5em;
+  }
+  .card-footer {
+    background-color: transparent;
+    border: none;
+  }
 }
 
 footer {
   background-color: #141414;
   color: white;
+  p {
+    margin-bottom: .5em;
+  }
 }
 
 .get-involved {
