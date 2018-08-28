@@ -1,7 +1,7 @@
 @import 'variables';
 @import '~bootstrap/scss/bootstrap';
 
-* {
+*:not(i) {
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
 }
@@ -28,7 +28,7 @@ header {
   }
 }
 
-nav {
+nav:not(i) {
   font-family: $header-font;
   text-transform: uppercase;
   a {
@@ -126,23 +126,25 @@ nav {
 .transition {
   &.participate.top {
     background: url(/src/images/participate-bg-top.svg) no-repeat;
+    background-position: bottom center;
     position: absolute;
     bottom: 0;
-    height: 94px;
+    height: 5.85vw;
     width:100%;
   }
   &.participate.bottom {
     background: url(/src/images/participate-bg-bottom.svg) no-repeat;
     position: absolute;
     top: 0;
-    height: 115px;
+    height: 7.5vw;
     width:100%;
   }
   &.involved.top {
     background: url(/src/images/involved-bg-top.svg) no-repeat;
+    background-position: bottom center;
     position: absolute;
     bottom: 0;
-    height: 126px;
+    height: 8vw;
     width:100%;
   }
 }
@@ -191,4 +193,8 @@ footer {
   .team button:last-of-type {
     margin-bottom: 150px;
   }
+   
 }
+
+@media(min-width:1600px) {
+  }

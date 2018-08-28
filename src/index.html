@@ -11,13 +11,34 @@
   <body>
     <header class="position-relative">
       <video no-controls autoplay loop src="/src/images/bg.mp4" class="w-100 h-100 position-absolute"></video>
-      <nav class="d-flex align-items-center justify-content-between w-50 mx-auto mt-5">
-        <a href="">Home</a>
-        <a href="">How it Works</a>
-        <a href="">Exchanges</a>
-        <a href="">Partners</a>
-        <a href="">Careers</a>
-      </nav>
+      <div class="container text-center">
+        <nav class="navbar navbar-expand-lg mx-auto mt-5">
+          <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#fullNav">
+            <span class="navbar-toggler-icon">
+              <i class="far fa-bars"></i> 
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="fullNav">
+            <ul class="navbar-nav mx-auto w-75 justify-content-between">
+              <li class="nav-item active mb-3 mb-md-0">
+                <a href="">Home</a>
+              </li>
+              <li class="nav-item mb-3 mb-md-0">
+                <a href="">How it Works</a>
+              </li>
+              <li class="nav-item mb-3 mb-md-0">
+                <a href="">Exchanges</a>
+              </li>
+              <li class="nav-item mb-3 mb-md-0">
+                <a href="">Partners</a>
+              </li>
+              <li class="nav-item">
+                <a href="">Careers</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
       <section class="hero text-center">
         <div class="container">
           <img src="/src/images/logo-black.svg" class="py-5">
@@ -26,7 +47,7 @@
         </div>
       </section>
       <section class="backers d-flex flex-column align-items-center justify-content-center">
-        <div class="email-signup d-flex align-items-center w-75 w-md-50 mx-auto mt-5 p-2 border border-primary">
+        <div class="email-signup d-flex align-items-center w-75 mx-auto mt-5 p-2 border border-primary">
           <input type="text" class="flex-1 flex-grow-1 mr-3 border-0" placeholder="Sign up for updates...">
           <button class="btn btn-primary">Sign Up</button>
         </div>
