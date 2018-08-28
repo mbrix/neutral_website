@@ -178,3 +178,17 @@ footer {
   background-color: #F8F8F8;
 }
 
+@media(max-width:640px) {
+  h1 {
+    font-size: 3em;
+  }
+  .ctas {
+    padding-bottom: 150px;
+  }
+  .team h2 {
+    padding-top: 150px;
+  }
+  .team button:last-of-type {
+    margin-bottom: 150px;
+  }
+}
