@@ -1,6 +1,14 @@
 @import 'variables';
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
+@mixin grayscale() {
+  -webkit-filter: grayscale(1);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: gray;
+  filter: grayscale(100%);
+}
+
 *:not(i) {
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
@@ -79,11 +87,7 @@ nav:not(i) {
     width: 100%;
     left: 0;
     bottom: 0;
-    -webkit-filter: grayscale(1);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    filter: gray;
-    filter: grayscale(100%);
+    @include grayscale(); 
     opacity: .1;
   }
 }
@@ -107,11 +111,7 @@ nav:not(i) {
       rgba(53,53,53,1),
       rgba(53,53,53,1)
     );
-  -webkit-filter: grayscale(1);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: gray;
-  filter: grayscale(100%);
+    @include grayscale(); 
 }
 
 .get-involved { 
@@ -121,25 +121,31 @@ nav:not(i) {
       rgba(248,248,248,.9)
     ),
     url(images/bg-wavy-gray.svg) no-repeat;
-  -webkit-filter: grayscale(1);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: gray;
-  filter: grayscale(100%);
+    @include grayscale();
 }
 
-.team .card-footer {
-  background: transparent;
-  padding: 0;
-  display: flex;
-  background-color: #A9A9A9;
-  color: white;
-  font-weight: 300;
-  .name-link {
-    padding: .5em;
-    background-color: #000000;
-    width: 80%;
-    clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%); 
+.team {
+  .card-img-top {
+    height: 350px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      @include grayscale();
+    }
+  }
+  .card-footer {
+    background: transparent;
+    padding: 0;
+    display: flex;
+    background-color: #A9A9A9;
+    color: white;
+    font-weight: 300;
+    .name-link {
+      padding: .5em;
+      background-color: #000000;
+      width: 80%;
+      clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%); 
+    }
   }
 }
 

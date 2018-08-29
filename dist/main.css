@@ -6876,6 +6876,16 @@ nav:not(i) {
   filter: gray;
   filter: grayscale(100%); }
 
+.team .card-img-top {
+  height: 350px;
+  overflow: hidden; }
+  .team .card-img-top img {
+    width: 100%;
+    -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: gray;
+    filter: grayscale(100%); }
 .team .card-footer {
   background: transparent;
   padding: 0;
