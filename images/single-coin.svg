@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="169px" height="213px" viewBox="0 0 169 213" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>single-coin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-712.000000, -1514.000000)">
+            <g id="How-Neutral-Works" transform="translate(175.000000, 1239.000000)">
+                <g id="Icon-2" transform="translate(448.000000, 90.000000)">
+                    <g id="single-coin" transform="translate(91.000000, 187.000000)">
+                        <g id="Group-4" transform="translate(7.000000, 52.000000)">
+                            <circle id="Oval-2" stroke="#7490B1" stroke-width="6" fill="#FFFFFF" cx="78" cy="78" r="78"></circle>
+                            <circle id="Oval-2" stroke="#7490B1" stroke-width="2" fill="#7490B1" cx="78" cy="78" r="69"></circle>
+                            <path d="M113.5,16.5 L44.5,137.5" id="Line-2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square"></path>
+                        </g>
+                        <ellipse id="Oval-3" stroke="#7490B1" stroke-width="3" fill="#FFFFFF" cx="13" cy="13.5" rx="13" ry="13.5"></ellipse>
+                        <ellipse id="Oval-3-Copy" stroke="#7490B1" stroke-width="3" fill="#FFFFFF" cx="84" cy="13.5" rx="13" ry="13.5"></ellipse>
+                        <polyline id="Path-4" stroke="#7490B1" stroke-width="3" points="24.3512716 21.2191268 42.0395958 33.6388751 42.0395958 51.8430847"></polyline>
+                        <path d="M84,27 L84,44" id="Path-5" stroke="#7490B1" stroke-width="3"></path>
+                        <g id="Group-3" transform="translate(143.500000, 26.000000) scale(-1, 1) translate(-143.500000, -26.000000) translate(122.000000, 0.000000)" stroke="#7490B1" stroke-width="3">
+                            <ellipse id="Oval-3" fill="#FFFFFF" cx="13" cy="13.5" rx="13" ry="13.5"></ellipse>
+                            <polyline id="Path-4" points="24.3512716 21.2191268 42.0395958 33.6388751 42.0395958 51.8430847"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

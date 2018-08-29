@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1610 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.99981,21.999515 C0.99981,21.999515 402.33417,122.10523 804.00019,122.10523 C1206.33275,122.10523 1609.00019,21.999515 1609.00019,21.999515 L1609.00019,713.999895 L0.99981,713.999895 L0.99981,21.999515 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Shape-6-copy-2">
+            <path d="M0.99981,21.999525 C0.99981,21.999525 402.33417,112.105575 804.00019,112.105575 C1206.33275,112.105575 1609.00019,1.99938 1609.00019,1.99938 L1609.00019,703.999605 L0.99981,703.999605 L0.99981,21.999525 Z" id="Shape-6-copy" fill="#ECECEC"></path>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use fill="#F8F8F8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
