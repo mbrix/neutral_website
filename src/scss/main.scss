@@ -20,6 +20,14 @@ hr {
   border-width: 4px;
 }
 
+ul {
+  text-align: left;
+}
+
+li {
+  margin-bottom: .5em;
+}
+
 header {
   /*background: url(/src/images/topo.svg) no-repeat;*/
   video {
@@ -48,7 +56,11 @@ nav:not(i) {
 }
 
 .backers {
-  background-color: $primary;
+  background: 
+    linear-gradient(
+      rgba(116,144,177, 1),
+      rgba(116,144,177, 1),
+    );
   color: white;
   h5 {
     font-weight: 200;
@@ -76,27 +88,6 @@ nav:not(i) {
   }
 }
 
-.wavy-bg-middle {
-  position: relative;
-  &::after {
-    position: absolute;
-    content: '';
-    z-index: -1;
-    background: url(/src/images/bg-wavy-middle.png) no-repeat;
-    background-position: bottom;
-    height: 610px;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    -webkit-filter: grayscale(1);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    filter: gray;
-    filter: grayscale(100%);
-    opacity: .1;
-  }
-}
-
 .triptych .card {
   box-shadow: .5px .9px 21px 0px rgba(0,0,0,.04);
   h4 {
@@ -109,17 +100,47 @@ nav:not(i) {
   }
 }
 
-.participate {
-  position: relative;
-  &::before {
-    position: absolute;
-    width:100%;
-    top: 0;
-    left: 0;
-    content: '';
-    height: 94px;
+.participate { 
+  background:  
+    url(/src/images/bg-wavy-middle.svg),
+    linear-gradient(
+      rgba(53,53,53,1),
+      rgba(53,53,53,1)
+    );
+  -webkit-filter: grayscale(1);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: gray;
+  filter: grayscale(100%);
+}
+
+.get-involved { 
+  background:  
+    linear-gradient(
+      rgba(248,248,248,1),
+      rgba(248,248,248,.9)
+    ),
+    url(/src/images/bg-wavy-gray.svg) no-repeat;
+  -webkit-filter: grayscale(1);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: gray;
+  filter: grayscale(100%);
+}
+
+.team .card-footer {
+  background: transparent;
+  padding: 0;
+  display: flex;
+  background-color: #A9A9A9;
+  color: white;
+  font-weight: 300;
+  .name-link {
+    padding: .5em;
+    background-color: #000000;
+    width: 80%;
+    clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%); 
   }
-  background-color: #353535;
 }
 
 .transition {
@@ -190,6 +211,13 @@ footer {
   p {
     margin-bottom: .5em;
   }
+  a {
+    color: #FFFFFF;
+    &:hover {
+      color: #FFFFFF;
+      text-decoration: underline;
+    }
+  }
 }
 
 .get-involved {
@@ -208,9 +236,11 @@ footer {
   }
   .team button:last-of-type {
     margin-bottom: 150px;
-  }
-   
+  } 
 }
 
-@media(min-width:1600px) {
+@media(min-width:1024px) {
+  .email-signup {
+    width: 50% !important;
   }
+}
