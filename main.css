@@ -5295,6 +5295,9 @@ button.bg-dark:focus {
 .w-auto {
   width: auto !important; }
 
+.w-33 {
+  width: "33%" !important; }
+
 .h-25 {
   height: 25% !important; }
 
@@ -5309,6 +5312,9 @@ button.bg-dark:focus {
 
 .h-auto {
   height: auto !important; }
+
+.h-33 {
+  height: "33%" !important; }
 
 .mw-100 {
   max-width: 100% !important; }
@@ -6788,7 +6794,7 @@ a:hover {
   text-decoration: none; }
 
 h1 {
-  font-size: 4em; }
+  font-size: 3em; }
 
 h2 {
   font-size: 2.1875em;
@@ -6974,6 +6980,14 @@ footer {
 .get-involved {
   background-color: #F8F8F8; }
 
+header.interior {
+  background-color: #000000; }
+  header.interior:after {
+    content: '';
+    height: 57px;
+    background: url(images/interior-header-bg.svg) no-repeat;
+    width: 100%; }
+
 @media (max-width: 640px) {
   h1 {
     font-size: 3em; }
@@ -7007,6 +7021,6 @@ footer {
     margin-left: 0px; } }
 @media (min-width: 1024px) {
   .email-signup {
-    width: 50% !important; } }
+    width: 33% !important; } }
 
 /*# sourceMappingURL=main.css.map */
