@@ -6825,6 +6825,9 @@ nav:not(i) {
   nav:not(i) a {
     color: #605E5E; }
 
+header.interior nav a {
+  color: #FFFFFF; }
+
 .hero h1 {
   font-weight: 100;
   color: #000000; }
