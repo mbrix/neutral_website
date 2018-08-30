@@ -1,6 +1,14 @@
 @import 'variables';
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
+@mixin primary-tint() {
+  -webkit-filter: rgba(233,239,247,1);
+  -webkit-filter: rgba(233,239,247,1);
+  -moz-filter: rgba(233,239,247,1);
+  filter: rgba(233,239,247,1);
+  filter: rgba(233,239,247,1);
+}
+
 @mixin grayscale() {
   -webkit-filter: grayscale(1);
   -webkit-filter: grayscale(100%);
@@ -270,6 +278,30 @@ header.interior {
 
 .page-body {
   padding-bottom: 200px;
+}
+
+.partners h2 { margin-top: 7em; }
+
+.callout {
+  text-align: center; 
+  background-color: #e9eff7;
+  border: 1px solid #d2dfef;
+  padding: 2em;
+  border-radius: 5px;
+  h5 {
+    font-weight: 400;
+    margin-bottom: 1em;
+  }
+  i {
+    font-size: 2.5em;
+    margin-bottom: .5em;
+  }
+  background:  
+    linear-gradient(
+      rgba(233,239,247,.9),
+      rgba(233,239,247,.9),
+    ),
+    url(images/bg-wavy-gray.svg);
 }
 
 @media(max-width:640px) {
