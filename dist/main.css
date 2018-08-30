@@ -6893,6 +6893,19 @@ header.interior nav a {
   filter: gray;
   filter: grayscale(100%); }
 
+.team .card {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.08) 2.5px 4.3px 27px 0;
+  padding-top: 1em; }
+  .team .card img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: gray;
+    filter: grayscale(100%); }
 .team .card-img-top {
   height: 280px;
   overflow: hidden; }
