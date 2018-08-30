@@ -73,6 +73,11 @@ header.interior nav a { color: #FFFFFF }
   } 
 }
 
+.card-deck {
+  max-width: 900px;
+  margin: auto;
+}
+
 .email-signup {
   background-color: #FFFFFF;
 }
@@ -140,7 +145,7 @@ header.interior nav a { color: #FFFFFF }
 
 .team {
   .card-img-top {
-    height: 350px;
+    height: 280px;
     overflow: hidden;
     img {
       width: 100%;

@@ -6835,6 +6835,10 @@ header.interior nav a {
   font-weight: 200;
   color: #000000; }
 
+.card-deck {
+  max-width: 900px;
+  margin: auto; }
+
 .email-signup {
   background-color: #FFFFFF; }
 
@@ -6889,7 +6893,7 @@ header.interior nav a {
   filter: grayscale(100%); }
 
 .team .card-img-top {
-  height: 350px;
+  height: 280px;
   overflow: hidden; }
   .team .card-img-top img {
     width: 100%;
