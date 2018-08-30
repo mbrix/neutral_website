@@ -6837,7 +6837,8 @@ header.interior nav a {
 
 .card-deck {
   max-width: 900px;
-  margin: auto; }
+  margin: auto;
+  padding: 1.25em .5em; }
 
 .email-signup {
   background-color: #FFFFFF; }
