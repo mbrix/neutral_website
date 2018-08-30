@@ -6835,6 +6835,9 @@ header.interior nav a {
   font-weight: 200;
   color: #000000; }
 
+.email-signup {
+  background-color: #FFFFFF; }
+
 .backers {
   background: linear-gradient(#7490b1, #7490b1);
   color: white; }
