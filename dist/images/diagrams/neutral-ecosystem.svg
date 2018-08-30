@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2499px" height="1578px" viewBox="0 0 2499 1578" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-48" transform="translate(-52.000000, -36.000000)">
+            <g id="Group" transform="translate(52.000000, 24.000000)">
+                <g id="Group-1820" transform="translate(0.000000, 352.000000)" fill="#5D728B">
+                    <path d="M160.6602,610.082 C249.2822,610.082 321.1242,681.924 321.1242,770.545 C321.1242,859.167 249.2822,931.009 160.6602,931.009 C72.0392,931.009 0.1972,859.167 0.1972,770.545 C0.1972,681.924 72.0392,610.082 160.6602,610.082" id="Fill-1816"></path>
+                    <path d="M160.6602,0.4453 C249.2822,0.4453 321.1242,72.2873 321.1242,160.9093 C321.1242,249.5303 249.2822,321.3723 160.6602,321.3723 C72.0392,321.3723 0.1972,249.5303 0.1972,160.9093 C0.1972,72.2873 72.0392,0.4453 160.6602,0.4453" id="Fill-1818"></path>
+                </g>
+                <text id="Trader" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="65.3519" font-weight="400" letter-spacing="-5.9473748" fill="#FFFFFF">
+                    <tspan x="67" y="1146">T</tspan>
+                    <tspan x="93.7939271" y="1146" letter-spacing="0.065">rader</tspan>
+                </text>
+                <path d="M1451.748,563.1514 C1580.848,563.1514 1685.504,667.8074 1685.504,796.9074 C1685.504,926.0064 1580.848,1030.6624 1451.748,1030.6624 C1322.648,1030.6624 1217.992,926.0064 1217.992,796.9074 C1217.992,667.8074 1322.648,563.1514 1451.748,563.1514" id="Fill-1821" fill="#AAC0DA"></path>
+                <text id="Exchange" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="65.3519" font-weight="400" letter-spacing="0.065" fill="#FFFFFF">
+                    <tspan x="1312" y="818">Exchange</tspan>
+                </text>
+                <text id="Trader" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="65.3519" font-weight="400" letter-spacing="-5.9473748" fill="#FFFFFF">
+                    <tspan x="70" y="533">T</tspan>
+                    <tspan x="96.7939271" y="533" letter-spacing="0.065">rader</tspan>
+                </text>
+                <path d="M1187.373,797.0723 C1187.373,1007.7863 1016.556,1178.6043 805.842,1178.6043 C595.127,1178.6043 424.31,1007.7863 424.31,797.0723 C424.31,586.3583 595.127,415.5413 805.842,415.5413 C1016.556,415.5413 1187.373,586.3583 1187.373,797.0723" id="Fill-1823" fill="#AAC0DA"></path>
+                <text id="Neutral" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="48" font-weight="400" letter-spacing="0.065" fill="#FFFFFF">
+                    <tspan x="715" y="500">Neutral</tspan>
+                </text>
+                <path d="M1070.585,797.0723 C1070.585,943.2863 952.055,1061.8153 805.842,1061.8153 C659.628,1061.8153 541.099,943.2863 541.099,797.0723 C541.099,650.8593 659.628,532.3293 805.842,532.3293 C952.055,532.3293 1070.585,650.8593 1070.585,797.0723" id="Fill-1825" fill="#7490B1"></path>
+                <text id="Reserve" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="48" font-weight="400" letter-spacing="0.065" fill="#FFFFFF">
+                    <tspan x="704.6348" y="647.915736">Reserve</tspan>
+                </text>
+                <path d="M935.0166,785.5996 L676.6076,785.5996 C656.9966,785.5996 640.9526,769.5556 640.9526,749.9456 C640.9526,730.3346 656.9966,714.2896 676.6076,714.2896 L935.0166,714.2896 C954.6256,714.2896 970.6706,730.3346 970.6706,749.9456 C970.6706,769.5556 954.6256,785.5996 935.0166,785.5996" id="Fill-1827" fill="#FFFFFF"></path>
+                <text id="A-Component" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="34.8292" font-weight="400" letter-spacing="0.065" fill="#212121">
+                    <tspan x="683.8604" y="757.354647">A Component</tspan>
+                </text>
+                <g id="Group-1833" transform="translate(641.000000, 799.000000)" fill="#FFFFFF">
+                    <path d="M294.0762,71.4238 L35.6672,71.4238 C16.0562,71.4238 0.0122,55.3798 0.0122,35.7698 C0.0122,16.1588 16.0562,0.1138 35.6672,0.1138 L294.0762,0.1138 C313.6852,0.1138 329.7302,16.1588 329.7302,35.7698 C329.7302,55.3798 313.6852,71.4238 294.0762,71.4238" id="Fill-1829"></path>
+                    <path d="M294.0762,156.1484 L35.6672,156.1484 C16.0562,156.1484 0.0122,140.1034 0.0122,120.4944 C0.0122,100.8834 16.0562,84.8384 35.6672,84.8384 L294.0762,84.8384 C313.6852,84.8384 329.7302,100.8834 329.7302,120.4944 C329.7302,140.1034 313.6852,156.1484 294.0762,156.1484" id="Fill-1831"></path>
+                </g>
+                <text id="B-Component" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="34.8292" font-weight="400" letter-spacing="0.065" fill="#212121">
+                    <tspan x="683.8604" y="843.354647">B Component</tspan>
+                </text>
+                <text id="C-Component" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="34.8292" font-weight="400" letter-spacing="0.065" fill="#212121">
+                    <tspan x="683.8604" y="931.368035">C Component</tspan>
+                </text>
+                <polygon id="Fill-1834" fill="#7490B1" points="2053.751 919 2498.489 919 2498.489 671 2053.751 671"></polygon>
+                <text id="Retail-Pool" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="65.3519" font-weight="400" letter-spacing="0.065" fill="#FFFFFF">
+                    <tspan x="2117" y="820">Retail Pool</tspan>
+                </text>
+                <text id="Buy-&amp;-Hold-" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="48" font-weight="400" letter-spacing="0.065" fill="#212121">
+                    <tspan x="1740.6074" y="877.742936">Buy &amp; Hold </tspan>
+                </text>
+                <text id="Neutral" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="48" font-weight="400" letter-spacing="0.065" fill="#212121">
+                    <tspan x="1797.5354" y="935.342936">Neutral</tspan>
+                </text>
+                <text id="Buy-Neutral-Via-Exchange" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="48" font-weight="400" letter-spacing="0.065" fill="#212121">
+                    <tspan x="478" y="47">Buy Neutral </tspan>
+                    <tspan x="751.756" y="47" letter-spacing="0.5402">V</tspan>
+                    <tspan x="782.1042" y="47">ia Exchange</tspan>
+                </text>
+                <text id="Sell-Neutral-Via-Exchange" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="48" font-weight="400" letter-spacing="0.065" fill="#212121">
+                    <tspan x="482.4794" y="1579.93494">Sell Neutral </tspan>
+                    <tspan x="750.9724" y="1579.93494" letter-spacing="0.545">V</tspan>
+                    <tspan x="781.3254" y="1579.93494">ia Exchange</tspan>
+                </text>
+                <text id="Receive-" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="30" font-weight="400" letter-spacing="0.065" fill="#212121">
+                    <tspan x="395.5469" y="1134.89036">Receive </tspan>
+                </text>
+                <text id="Neutral" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="30" font-weight="400" letter-spacing="0.065" fill="#212121">
+                    <tspan x="405.9869" y="1170.89036">Neutral</tspan>
+                </text>
+                <text id="Deposit" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="30" font-weight="400" letter-spacing="0.065" fill="#212121">
+                    <tspan x="244.3769" y="893.90036">Deposit</tspan>
+                </text>
+                <text id="Component" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="30" font-weight="400" letter-spacing="0.065" fill="#212121">
+                    <tspan x="214.6769" y="929.90036">Component</tspan>
+                </text>
+                <text id="Redeem" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="30" font-weight="400" letter-spacing="0.065" fill="#212121">
+                    <tspan x="258.2069" y="707.90036">Redeem</tspan>
+                </text>
+                <text id="Neutral" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="30" font-weight="400" letter-spacing="0.065" fill="#212121">
+                    <tspan x="265.0169" y="743.90036">Neutral</tspan>
+                </text>
+                <text id="Redeem" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="30" font-weight="400" letter-spacing="0.065" fill="#212121">
+                    <tspan x="362.2169" y="444.89036">Redeem</tspan>
+                </text>
+                <text id="Component" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="30" font-weight="400" letter-spacing="0.065" fill="#212121">
+                    <tspan x="335.6969" y="480.89036">Component</tspan>
+                </text>
+                <path d="M1720.2617,793.4883 L2053.4997,793.4883" id="Stroke-1836" stroke="#212121" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <polyline id="Fill-1838" fill="#212121" points="1723.7617 813.4883 1703.7617 793.4883 1723.7617 773.4883"></polyline>
+                <polyline id="Fill-1840" fill="#212121" points="1391.2969 1052.7422 1418.5079 1045.0232 1426.2269 1072.2332"></polyline>
+                <polyline id="Fill-1842" fill="#212121" points="325.0498 365.4834 296.7668 365.7754 296.4748 337.4934"></polyline>
+                <polyline id="Fill-1844" fill="#212121" points="425.5557 953.4893 445.7607 973.2813 425.9687 993.4873"></polyline>
+                <polyline id="Fill-1846" fill="#212121" points="415.5557 631.4893 435.7607 651.2813 415.9687 671.4873"></polyline>
+                <polyline id="Fill-1848" fill="#212121" points="365.543 1106.9082 341.342 1092.2682 355.981 1068.0672"></polyline>
+                <polyline id="Fill-1850" fill="#212121" points="342.4385 576.3525 324.8975 554.1645 347.0855 536.6235"></polyline>
+                <path d="M1411.125,1055.3359 C1410.15,1057.6409 1409.164,1059.9379 1408.164,1062.2279" id="Stroke-1852" stroke="#212121" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M1401.9502,1076.0313 C1296.5842,1303.1003 1066.5652,1460.5723 799.7652,1460.5723 C625.1312,1460.5723 427.9732,1379.2193 307.2092,1268.0973" id="Stroke-1854" stroke="#212121" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="15.138,15.138"></path>
+                <path d="M301.6719,1262.9316 C299.8509,1261.2066 298.0469,1259.4756 296.2619,1257.7386" id="Stroke-1856" stroke="#212121" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M308.1826,351.4443 C429.5726,217.6173 604.8546,133.5723 799.7666,133.5723 C1064.1256,133.5723 1311.6086,328.0113 1418.2616,551.7383" id="Stroke-1858" stroke="#212121" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M351.2617,1087.7383 C351.2617,1087.7383 354.0127,1087.5033 358.6857,1086.7013" id="Stroke-1860" stroke="#212121" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M372.2773,1083.7539 C395.9843,1077.5779 434.0523,1062.3049 455.7393,1025.6359" id="Stroke-1862" stroke="#212121" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="13.913,13.913"></path>
+                <path d="M459.0898,1019.5352 C460.2058,1017.3402 461.2658,1015.0752 462.2618,1012.7382" id="Stroke-1864" stroke="#212121" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M321.2617,1038.7383 C321.2617,1038.7383 322.9207,1036.5503 326.0587,1032.9763" id="Stroke-1866" stroke="#212121" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M335.1992,1023.2734 C351.9052,1006.6694 382.5452,981.7874 421.1782,975.2474" id="Stroke-1868" stroke="#212121" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="13.334,13.334"></path>
+                <path d="M427.7842,974.3203 C430.2482,974.0473 432.7402,973.8513 435.2622,973.7383" id="Stroke-1870" stroke="#212121" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M303.4355,597.8838 C303.4355,597.8838 353.2615,656.7378 425.2615,650.7378" id="Stroke-1872" stroke="#212121" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M331.2617,555.7383 C331.2617,555.7383 409.2617,554.7383 447.2617,614.7383" id="Stroke-1874" stroke="#212121" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M902.5117,1341.4307 L709.1717,1341.4307 C688.4607,1341.4307 671.6717,1324.6417 671.6717,1303.9307 L671.6717,1296.4497 C671.6717,1275.7387 688.4607,1258.9497 709.1717,1258.9497 L902.5117,1258.9497 C923.2217,1258.9497 940.0117,1275.7387 940.0117,1296.4497 L940.0117,1303.9307 C940.0117,1324.6417 923.2217,1341.4307 902.5117,1341.4307" id="Fill-1876" fill="#7490B1"></path>
+                <text id="Mint" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="32.9926" font-weight="400" letter-spacing="0.065" fill="#FFFFFF">
+                    <tspan x="768.6504" y="1309.34758">Mint</tspan>
+                </text>
+                <path d="M902.5117,320.4814 L709.1717,320.4814 C688.4607,320.4814 671.6717,303.6924 671.6717,282.9814 L671.6717,275.5004 C671.6717,254.7894 688.4607,238.0004 709.1717,238.0004 L902.5117,238.0004 C923.2217,238.0004 940.0117,254.7894 940.0117,275.5004 L940.0117,282.9814 C940.0117,303.6924 923.2217,320.4814 902.5117,320.4814" id="Fill-1879" fill="#7490B1"></path>
+                <text id="Redemption" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="32.9926" font-weight="400" letter-spacing="0.065" fill="#FFFFFF">
+                    <tspan x="711" y="289">Redemption</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

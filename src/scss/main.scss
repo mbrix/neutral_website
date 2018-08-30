@@ -17,6 +17,14 @@
   filter: grayscale(100%);
 }
 
+@mixin shadow() {
+  box-shadow: rgba(0, 0, 0, 0.08) 2.5px 4.3px 27px 0;
+}
+
+.shadow {
+  @include shadow();
+}
+
 *:not(i) {
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
@@ -42,6 +50,10 @@ ul {
 
 li {
   margin-bottom: .5em;
+}
+
+form {
+  margin-bottom: 0;
 }
 
 header {
@@ -299,9 +311,10 @@ header.interior {
 
 .page-body {
   padding-bottom: 200px;
+  section {
+    margin-top: 5em;
+  }
 }
-
-.partners h2 { margin-top: 7em; }
 
 .callout {
   text-align: center; 
@@ -325,9 +338,24 @@ header.interior {
     url(images/bg-wavy-gray.svg);
 }
 
+.media {
+  align-items: center;
+  padding: 2em;
+  border-top: 1px solid lightgray;
+  &:last-of-type {
+    border-bottom: 1px solid lightgray;
+  }
+  strong {
+    font-weight: 500;
+  }
+}
+
 @media(max-width:640px) {
   h1 {
-    font-size: 3em;
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1em;
   }
   .ctas {
     padding-bottom: 150px;
@@ -338,6 +366,9 @@ header.interior {
   .team button:last-of-type {
     margin-bottom: 150px;
   } 
+  .email-signup {
+    width: 100% !important;
+  }
 }
 
 @media(max-width: 1000px) {
@@ -362,8 +393,3 @@ header.interior {
   }
 }
 
-@media(min-width:1024px) {
-  .email-signup {
-    width: 33% !important;
-  }
-}

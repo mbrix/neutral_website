@@ -6786,6 +6786,9 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.08) 2.5px 4.3px 27px 0; }
+
 *:not(i) {
   font-family: 'Poppins', sans-serif;
   font-weight: 200; }
@@ -6812,6 +6815,9 @@ ul {
 
 li {
   margin-bottom: .5em; }
+
+form {
+  margin-bottom: 0; }
 
 header {
   /*background: url(images/topo.svg) no-repeat;*/ }
@@ -7021,9 +7027,8 @@ header.interior {
 
 .page-body {
   padding-bottom: 200px; }
-
-.partners h2 {
-  margin-top: 7em; }
+  .page-body section {
+    margin-top: 5em; }
 
 .callout {
   text-align: center;
@@ -7039,9 +7044,21 @@ header.interior {
     font-size: 2.5em;
     margin-bottom: .5em; }
 
+.media {
+  align-items: center;
+  padding: 2em;
+  border-top: 1px solid lightgray; }
+  .media:last-of-type {
+    border-bottom: 1px solid lightgray; }
+  .media strong {
+    font-weight: 500; }
+
 @media (max-width: 640px) {
   h1 {
-    font-size: 3em; }
+    font-size: 2em; }
+
+  h3 {
+    font-size: 1em; }
 
   .ctas {
     padding-bottom: 150px; }
@@ -7050,7 +7067,10 @@ header.interior {
     padding-top: 150px; }
 
   .team button:last-of-type {
-    margin-bottom: 150px; } }
+    margin-bottom: 150px; }
+
+  .email-signup {
+    width: 100% !important; } }
 @media (max-width: 1000px) {
   .card-deck-wrapper {
     margin-right: 0;
@@ -7070,8 +7090,5 @@ header.interior {
 
   .card-deck .card:not(:first-child) {
     margin-left: 0px; } }
-@media (min-width: 1024px) {
-  .email-signup {
-    width: 33% !important; } }
 
 /*# sourceMappingURL=main.css.map */
