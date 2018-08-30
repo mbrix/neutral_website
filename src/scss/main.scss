@@ -257,6 +257,19 @@ header.interior {
   }
 }
 
+.title {
+  margin: 60px auto;
+  h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+  }
+}
+
+.page-body {
+  padding-bottom: 200px;
+}
+
 @media(max-width:640px) {
   h1 {
     font-size: 3em;

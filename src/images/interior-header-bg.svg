@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1600px" height="58px" viewBox="0 0 1600 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="0 0 1600 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
-    <title>Path 7</title>
+    <title>Path-7</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M0,0.594306826 L1599.04233,0.594306826 C1598.93092,37.7209358 1598.93091,56.6945561 1599.0423,57.5151675 C1599.20939,58.7460846 919.157959,-67.0925898 0,57.5151675" id="Path-7" stroke="#979797" fill="#000000"></path>
+        <g id="interior-header-bg" fill="#000000" fill-rule="nonzero">
+            <path d="M0,0.594306826 L1599.04233,0.594306826 C1598.93092,37.7209358 1598.93091,56.6945561 1599.0423,57.5151675 C1599.20939,58.7460846 919.157959,-67.0925898 0,57.5151675" id="Path-7"></path>
+        </g>
     </g>
 </svg>
