@@ -7025,10 +7025,8 @@ header.interior {
     text-transform: uppercase;
     margin-bottom: .5em; }
 
-.page-body {
-  padding-bottom: 200px; }
-  .page-body section {
-    margin-top: 5em; }
+.page-body section {
+  margin-top: 5em; }
 
 .callout {
   text-align: center;
@@ -7043,6 +7041,9 @@ header.interior {
   .callout i {
     font-size: 2.5em;
     margin-bottom: .5em; }
+
+.how-it-works .callout {
+  background-color: #e9eff7; }
 
 .media {
   align-items: center;

@@ -310,7 +310,6 @@ header.interior {
 }
 
 .page-body {
-  padding-bottom: 200px;
   section {
     margin-top: 5em;
   }
@@ -336,6 +335,10 @@ header.interior {
       rgba(233,239,247,.9),
     ),
     url(images/bg-wavy-gray.svg);
+}
+
+.how-it-works .callout { 
+  background-color: #e9eff7;
 }
 
 .media {
