@@ -131,6 +131,9 @@ header.interior nav a { color: #FFFFFF }
     font-weight: 400;
   }
   .card-footer {
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
     border: 0;
     background: none;
   }
