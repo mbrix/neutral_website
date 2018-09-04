@@ -91,6 +91,11 @@ header.interior nav a { color: #FFFFFF }
   padding: 1.25em .5em;
 }
 
+.horiz-ctas {
+  width: 50%;
+  margin: auto;
+}
+
 .email-signup {
   background-color: #FFFFFF;
 }
@@ -372,7 +377,7 @@ header.interior {
   .team button:last-of-type {
     margin-bottom: 150px;
   } 
-  .email-signup {
+  .email-signup, .email {
     width: 100% !important;
   }
 }
@@ -396,6 +401,9 @@ header.interior {
   }
   .card-deck .card:not(:first-child) {
     margin-left: 0px;
+  }
+  .horiz-ctas {
+    width: 100%;
   }
 }
 
