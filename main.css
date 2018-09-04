@@ -6880,6 +6880,9 @@ header.interior nav a {
     font-size: 1.2em;
     font-weight: 400; }
   .triptych .card .card-footer {
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
     border: 0;
     background: none; }
 
