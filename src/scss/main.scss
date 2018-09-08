@@ -160,8 +160,9 @@ header.interior nav a { color: #FFFFFF }
       rgba(248,248,248,1),
       rgba(248,248,248,.9)
     ),
-    url(images/bg-wavy-gray.svg) no-repeat;
+    url(images/bg-wavy-gray-2.svg) no-repeat;
     @include grayscale();
+    background-size: cover;
 }
 
 .team {
