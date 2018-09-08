@@ -6899,12 +6899,13 @@ header.interior nav a {
   filter: grayscale(100%); }
 
 .get-involved {
-  background: linear-gradient(#f8f8f8, rgba(248, 248, 248, 0.9)), url(images/bg-wavy-gray.svg) no-repeat;
+  background: linear-gradient(#f8f8f8, rgba(248, 248, 248, 0.9)), url(images/bg-wavy-gray-2.svg) no-repeat;
   -webkit-filter: grayscale(1);
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   filter: gray;
-  filter: grayscale(100%); }
+  filter: grayscale(100%);
+  background-size: cover; }
 
 .team .card {
   border: none;
