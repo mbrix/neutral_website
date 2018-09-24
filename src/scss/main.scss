@@ -120,6 +120,7 @@ header.interior nav a { color: #FFFFFF }
     z-index: -1;
     background: url(images/bg-wavy-gray.png) no-repeat;
     background-position: bottom;
+    background-size: cover;
     height: 610px;
     width: 100%;
     left: 0;
@@ -226,7 +227,7 @@ header.interior nav a { color: #FFFFFF }
   }
   &.backers.top {
     background-image: url(images/backers-bg-top.svg);
-    height: 14.3vw;
+    height: 14vw;
   }
   &.backers.bottom {
     background-image: url(images/backers-bg-bottom.svg);
