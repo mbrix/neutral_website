@@ -221,16 +221,12 @@ header.interior nav a { color: #FFFFFF }
   background-repeat: no-repeat;
   background-color: transparent;
   background-size: cover;
-  &.top {
-    bottom: 0;
-    background-position: bottom center;
-  }
   &.bottom {
     top: 0;
   }
   &.backers.top {
     background-image: url(images/backers-bg-top.svg);
-    height: 14.42vw;
+    height: 14.3vw;
   }
   &.backers.bottom {
     background-image: url(images/backers-bg-bottom.svg);
@@ -238,7 +234,7 @@ header.interior nav a { color: #FFFFFF }
   }
   &.participate.top {
     background-image: url(images/participate-bg-top.svg);
-    height: 5.85vw;
+    height: 5.5vw;
   }
   &.participate.bottom {
     background-image: url(images/participate-bg-bottom.svg);

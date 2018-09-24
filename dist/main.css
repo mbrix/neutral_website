@@ -6960,20 +6960,17 @@ header.interior nav a {
   background-repeat: no-repeat;
   background-color: transparent;
   background-size: cover; }
-  .transition.top {
-    bottom: 0;
-    background-position: bottom center; }
   .transition.bottom {
     top: 0; }
   .transition.backers.top {
     background-image: url(images/backers-bg-top.svg);
-    height: 14.42vw; }
+    height: 14.3vw; }
   .transition.backers.bottom {
     background-image: url(images/backers-bg-bottom.svg);
     height: 9.88vw; }
   .transition.participate.top {
     background-image: url(images/participate-bg-top.svg);
-    height: 5.85vw; }
+    height: 5.5vw; }
   .transition.participate.bottom {
     background-image: url(images/participate-bg-bottom.svg);
     height: 7.5vw; }
