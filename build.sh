@@ -10,4 +10,5 @@ cp src/*.xml dist
 cp src/site.webmanifest dist
 cp -R src/images dist
 
-sass src/scss/main.scss dist/main.css
+node-sass src/scss/main.scss dist/main.css 2>/dev/null
+sass src/scss/main.scss dist/main.css 2>/dev/null
