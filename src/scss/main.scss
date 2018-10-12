@@ -171,7 +171,9 @@ header.interior nav a { color: #FFFFFF }
     box-shadow: rgba(0, 0, 0, 0.19) 2px 5px 10px;
     @include grayscale();
   }
-  .about-name {
+  .about-name,
+  .card-title:first-child,
+  {
     font-weight: 500;
   }
   .read-more {

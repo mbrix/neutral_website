@@ -6915,7 +6915,8 @@ header.interior nav a {
   -moz-filter: grayscale(100%);
   filter: gray;
   filter: grayscale(100%); }
-.team .about-name {
+.team .about-name,
+.team .card-title:first-child {
   font-weight: 500; }
 .team .read-more {
   text-decoration: underline;
