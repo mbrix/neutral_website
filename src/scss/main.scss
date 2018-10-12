@@ -167,6 +167,23 @@ header.interior nav a { color: #FFFFFF }
 }
 
 .team {
+  img {
+    box-shadow: rgba(0, 0, 0, 0.19) 2px 5px 10px;
+    @include grayscale();
+  }
+  .about-name {
+    font-weight: 500;
+  }
+  .read-more {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .short-bio {
+    margin-bottom: 3em;
+  }
+  .short-bio p:first-child {
+    min-height: 120px;
+  }
   .card {
     border: none;
     box-shadow: rgba(0, 0, 0, 0.08) 2.5px 4.3px 27px 0;
@@ -403,6 +420,18 @@ header.interior {
   }
   .horiz-ctas {
     width: 100%;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 1200px) {
+  .team .short-bio p:first-child {
+    min-height: 144px;
+  }
+}
+
+@media(max-width: 768px) {
+  .team .short-bio p:first-child {
+    min-height: auto;
   }
 }
 
