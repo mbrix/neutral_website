@@ -6908,7 +6908,8 @@ header.interior nav a {
   filter: grayscale(100%);
   background-size: cover; }
 
-.team img {
+.team img,
+.partners img {
   box-shadow: rgba(0, 0, 0, 0.19) 2px 5px 10px;
   -webkit-filter: grayscale(1);
   -webkit-filter: grayscale(100%);
@@ -6916,20 +6917,27 @@ header.interior nav a {
   filter: gray;
   filter: grayscale(100%); }
 .team .about-name,
-.team .card-title:first-child {
+.team .card-title:first-child,
+.partners .about-name,
+.partners .card-title:first-child {
   font-weight: 500; }
-.team .read-more {
+.team .read-more,
+.partners .read-more {
   text-decoration: underline;
   cursor: pointer; }
-.team .short-bio {
+.team .short-bio,
+.partners .short-bio {
   margin-bottom: 3em; }
-.team .short-bio p:first-child {
+.team .short-bio p:first-child,
+.partners .short-bio p:first-child {
   min-height: 120px; }
-.team .card {
+.team .card,
+.partners .card {
   border: none;
   box-shadow: rgba(0, 0, 0, 0.08) 2.5px 4.3px 27px 0;
   padding-top: 1em; }
-  .team .card img {
+  .team .card img,
+  .partners .card img {
     width: 200px;
     height: 200px;
     margin: auto;
@@ -6938,40 +6946,50 @@ header.interior nav a {
     -moz-filter: grayscale(100%);
     filter: gray;
     filter: grayscale(100%); }
-.team .card-img-top {
+.team .card-img-top,
+.partners .card-img-top {
   height: 280px;
   overflow: hidden; }
-  .team .card-img-top img {
+  .team .card-img-top img,
+  .partners .card-img-top img {
     width: 100%;
     -webkit-filter: grayscale(1);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     filter: gray;
     filter: grayscale(100%); }
-.team .card-footer {
+.team .card-footer,
+.partners .card-footer {
   background: transparent;
   padding: 0;
   display: flex;
   background-color: #A9A9A9;
   color: white;
   font-weight: 300; }
-  .team .card-footer a {
+  .team .card-footer a,
+  .partners .card-footer a {
     display: inherit;
     width: 100%;
     color: #FFFFFF;
     text-decoration: none; }
-  .team .card-footer .name-link {
+  .team .card-footer .name-link,
+  .partners .card-footer .name-link {
     background-color: #000000;
     width: 80%;
     clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
     padding: .5em; }
-  .team .card-footer div {
+  .team .card-footer div,
+  .partners .card-footer div {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 20%; }
-    .team .card-footer div:last-of-type {
+    .team .card-footer div:last-of-type,
+    .partners .card-footer div:last-of-type {
       font-size: 1.5em; }
+
+.partners .short-bio p:first-child {
+  min-height: 145px; }
 
 .transition {
   width: 100%;

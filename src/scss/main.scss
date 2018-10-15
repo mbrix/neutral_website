@@ -166,7 +166,8 @@ header.interior nav a { color: #FFFFFF }
     background-size: cover;
 }
 
-.team {
+.team,
+.partners {
   img {
     box-shadow: rgba(0, 0, 0, 0.19) 2px 5px 10px;
     @include grayscale();
@@ -234,6 +235,10 @@ header.interior nav a { color: #FFFFFF }
       }
     }
   }
+}
+
+.partners .short-bio p:first-child {
+  min-height: 145px;
 }
 
 .transition {
