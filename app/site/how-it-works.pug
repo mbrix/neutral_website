@@ -1,0 +1,65 @@
+extends ../layouts/secondary
+block body
+  div.page-body.how-it-works
+    section
+      div.container
+        section.title.text-center
+          h1 How it Works
+          p
+            | Neutral is an entirely new blockchain-native financial instrument.
+            | It mimics the properties of a traditional ETF in a completely trustless
+            | and fully decentralized way. The Neutral token processes revolve
+            | around the profit-seeking behavior of rational arbitrageurs.
+          p
+            | Primary market auctions drive the expansion of the Neutral token supply
+            | and the redemption mechanics cause the supply to contract. This results
+            | in globally-shared liquidity, reduced volatility, a trustless pricing
+            | oracle, and frictionless on-chain token exchange.
+      div.container.triptych.my-5
+        div.card-deck.text-center
+          div.card
+            div.card-body
+              img.w-100(src='images/collab.png')
+            div.card-footer
+              h4 Market participants work to bundle cryptocurrencies together
+          div.card
+            div.card-body
+              img.w-100(src='images/single-coin.png')
+            div.card-footer
+              h4 A single Neutral token represents a basket of cryptocurrencies
+          div.card
+            div.card-body
+              img.w-100(src='images/coin-market.png')
+            div.card-footer
+              h4 Neutral helps you diversify risk and get broad exposure to the market
+      div.transition.participate.top.mt-sm-5.mt-0
+    section.participate.text-center.py-5.wavy-bg-middle.mt-0
+      div.container
+        div.card-deck.horiz-ctas
+          div.callout.email.card
+            i.far.fa-envelope
+            h5 Sign Up for Updates
+            p Join our email list to stay updated on Neutral&apos;s progress.
+            form#mc-embedded-subscribe-form.validate.align-items-center(action='https://neutralproject.us19.list-manage.com/subscribe/post?u=596152852f3a264d0316ece5e&id=c3f27c22d6' method='post' name='mc-embedded-subscribe-form' target='_blank' novalidate='')
+              div.email-signup.w-100.mx-auto.p-2.border.border-primary
+                input#mce-EMAIL.w-100.mr-3.border-0(type='email' name='EMAIL' placeholder='Sign up for updates...')
+                div(style='position: absolute; left: -5000px;' aria-hidden='true')
+                  input(type='text' name='b_596152852f3a264d0316ece5e_c3f27c22d6' tabindex='-1' value='')
+              button#mc-embedded-subscribe.btn.btn-primary.d-block.mt-3.mx-auto(type='submit' name='subscribe') Sign Up
+            div#mce-responses.mt-3
+              div#mce-error-response.response(style='display:none')
+              div#mce-success-response.response(style='display:none')
+    section.text-center.mt-0
+      div.transition.participate.bottom.mt-0
+      div.container
+        h2 The Neutral Ecosystem
+        hr.mx-auto.w-25
+        p
+          | The Neutral ecosystem consists of consumers, traders/investors, exchanges,
+          | etc., working together to create and use Neutral tokens.
+        img.mt-5.w-75(src='images/diagrams/neutral-ecosystem.png')
+        p.mt-5
+          | Globally there is 3.4 trillion USD worth of ETF assets aggregated,
+          | quantified and sold to market participants. Given the rapid growth of
+          | the digital currency market, there is an unmet demand for a similar
+          | aggregate instrument from retail and institutional investors.

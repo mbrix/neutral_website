@@ -1,0 +1,118 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title Neutral
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,300i,400,500")
+    link(rel="stylesheet" href="https://fontlibrary.org/face/hk-grotesk" type="text/css")
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous")
+    link(rel="stylesheet" href="/main.css")
+    link(rel="shortcut icon" type="image/png" href="/favicon-16x16.png")
+  body
+    header.interior.pt-3
+      div.d-flex.flex-column.flex-lg-row.px-5.align-items-center.justify-content-between
+        a(href='/')
+          img(src='images/neutral-logo-white.svg')
+        button.navbar-toggler.mx-auto.mt-3.mt-lg-0.d-lg-none(type='button' data-toggle='collapse' data-target='#fullNav')
+          span.navbar-toggler-icon
+            i.fas.fa-bars.text-white
+        nav.navbar.navbar-expand-lg
+          #fullNav.collapse.navbar-collapse
+            ul.navbar-nav.mx-auto.justify-content-between.text-white.text-center
+              li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5
+                a(href='/') Home
+              li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5
+                a(href='/team') Team
+              li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5
+                a(href='/how-it-works') How it Works
+              li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5
+                a(href='/exchanges') Exchanges
+              li.nav-item.active
+                a(href='/careers') Careers
+
+    svg(viewbox='0 0 1600 60' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink')
+      g#Page-2(stroke='none' stroke-width='1' fill='none' fill-rule='evenodd')
+        g#interior-header-bg(fill='#000000' fill-rule='nonzero')
+          path#Path-7(d='M-1,-1 L1601,-1 C1601,40 1601,60 1601,60 C1601,58 960,-70 -1,60')
+
+    block body
+
+    div.transition.involved.top.pt-5
+    section.get-involved.text-center.py-5
+      h2
+        strong Get
+        |  Involved
+      p.mb-5 Get started on building the decentralized financial ecosystem.
+      .card-deck.container.mx-auto.w-50
+        .social.card.mr-md-5.mt-sm-3.mt-0
+          .card-body
+            .social-circle
+              i.fab.fa-telegram-plane
+          .card-footer
+            h4
+              a(href='https://t.me/neutralproject') Join us on Telegram
+        .social.card.mr-md-5.mt-sm-3.mt-0
+          .card-body
+            .social-circle
+              i.fab.fa-twitter
+          .card-footer
+            h4
+              a(href='https://twitter.com/neutral_project') Follow on Twitter
+        .social.card.mt-sm-3.mt-0
+          .card-body
+            .social-circle
+              i.fab.fa-medium-m
+          .card-footer
+            h4
+              a(href='https://medium.com/@neutralproject') Join us on Medium
+    footer
+      .container.py-5
+        .row.text-center.text-lg-left
+          .col-sm-6.col-lg-3.mt-5.mt-lg-0
+            p Neutral is the first blockchain-native aggregate financial instrument.
+          .col-sm-6.col-lg-3.mt-5.mt-lg-0
+            p Email:
+            p
+              a(href='mailto:hello@neturalproject.com') hello@neutralproject.com
+          .col-sm-6.col-lg-3.mt-5.mt-lg-0
+            p Address:
+            p 228 Park Avenue S #45204
+            p New York, NY 10003
+          .col-sm-6.col-lg-3.mt-5.mt-lg-0
+            p
+              a(href='https://twitter.com/neutral_project') @neutralproject
+            p
+              a(href='https://t.me/neutralproject') telegram.com/neutral
+            p
+              a(href='https://medium.com/@neutralproject') medium.com/neutralproject
+        hr
+        p.text-center Copyright 2018 Neutral
+    // Modal for bios
+    .modal(tabindex='-1' role='dialog')
+      .modal-dialog(role='document')
+        .modal-content
+          .modal-header
+            h5.modal-title.font-weight-bold About Name
+            button.close(type='button' data-dismiss='modal' aria-label='Close')
+              span(aria-hidden='true') &times;
+          .modal-body
+            p Bio goes here
+    script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js' integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49' crossorigin='anonymous')
+    script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js' integrity='sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy' crossorigin='anonymous')
+    script(type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js')
+    script(type='text/javascript').
+      (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);
+    script(type='text/javascript').
+      $(document).ready(function() {
+      $(".read-more").on('click', function(e) {
+      console.log(e.target);
+      var container = $(e.target).closest(".person");
+      console.log(container);
+      $(".modal-title").text(container.find(".about-name").text());
+      $(".modal-body").html(container.find(".long-bio").html());
+      $(".modal").modal();
+      });
+      });
+
