@@ -1,8 +1,8 @@
 extends ../layouts/primary
 block body
-  header.position-relative
+  header.position-relative.home-header
     div.container.text-center
-      nav.navbar.navbar-expand-lg.mx-auto.mt-5
+      nav.navbar.navbar-expand-lg.mx-auto.pt-5
         button.navbar-toggler.mx-auto(type="button" data-toggle="collapse" data-target="#fullNav")
           span.navbar-toggler-icon
             i.fas.fa-bars
@@ -20,11 +20,9 @@ block body
               a(href="/careers") Careers
 
     section.hero.text-center
-      div.container
-        img.py-5(src='/images/logo-black.svg')
-        h1.text-uppercase
-          strong Crypto Combined
-          |  and Redefined
+      div.container.mt-5
+        img.py-5.hero-logo(src='/images/neutral-logo-white.png')
+        h1 A Superior Digital Dollar
         h3 Neutral makes owning crypto easy. Find your balance.
         form#mc-embedded-subscribe-form.validate.d-flex.flex-column.flex-md-row.align-items-center(action='https://neutralproject.us19.list-manage.com/subscribe/post?u=596152852f3a264d0316ece5e&id=c3f27c22d6' method='post' name='mc-embedded-subscribe-form' target='_blank' novalidate='')
           div.email-signup.w-50.mx-auto.mt-5.p-2.border.border-primary.d-flex.flex-column.flex-md-row.justify-content-between
@@ -36,185 +34,78 @@ block body
         div#mce-responses.mt-3
           div#mce-error-response.response(style='display:none')
           div#mce-success-response.response(style='display:none')
-      div.transition.backers.top.mt-sm-5.mt-0
+      div.hero-spacer.mt-sm-5.mt-0
 
-    section.backers.d-flex.flex-column.align-items-center.justify-content-center.p-5
-      div.d-flex.flex-column.align-items-center.justify-content-center.flex-grow-1
-        div.d-flex.flex-column.flex-md-row.align-items-center.pt-3
-          img.pt-3.pt-md-0(src='/images/sequoia.png')
-
-  section.about.text-center.position-relative.wavy-bg
-    div.transition.backers.bottom
-    div.container
-      h2
-        strong The First Blockchain-Native Aggregate Financial Instrument
-      hr.w-25.mx-auto
+  section.about.text-center.position-relative
+    div.mt-5.mb-5
+    div.container.benefits
       p.my-5
-        | Neutral aims to deliver a better aggregate instrument for consumers and
-        | provide a foundation for future decentralized financial products.
-      div.container.triptych.my-5
-        div.card-deck
-          div.card
-            div.card-body
-              img.w-100(src='images/collab.png')
-            div.card-footer
-              h4 Market participants work to bundle cryptocurrencies together
-          div.card
-            div.card-body
-              img.w-100(src='images/single-coin.png')
-            div.card-footer
-              h4 A single Neutral token represents a basket of cryptocurrencies
-          div.card
-            div.card-body
-              img.w-100(src='images/coin-market.png')
-            div.card-footer
-              h4 Neutral helps you diversify risk and get broad exposure to the market
-      p.container
-        | Neutral is an entirely new blockchain-native financial instrument. It mimics
-        | the properties of a traditional ETF in a completely trustless and fully
-        | decentralized way. This construction results in globally-shared liquidity,
-        | reduced volatility, a trustless pricing oracle, and frictionless on-chain
-        | token exchange.
+        | By aggregating a basket of other stablecoins, the Neutral Dollar 
+        | generates a lower volatility coin with a more subdued risk profile 
+        | than any individual stablecoin today. Grounded by theory and empirically 
+        | tested, the Neutral Dollar leverages our own unique process to ensure 
+        | price stability that is better than any stablecoin design out in the market. 
+      p.my-5
+        | The Neutral Dollar will serve as a medium of exchange, store of value, unit 
+        | of account, and complementary trading instrument for crypto enthusiasts. 
+        | To ensure our stablecoin provides the best utility available, it exhibits 
+        | several key principles:
+      div.my-5 &nbsp;
+      div.row.mt-5
+        div.col-12.col-md-6.col-lg-4.text-center
+          p.lead.text-uppercase
+            i.fa.fa-dumbbell
+            | Collateralized
+          p Maintained by profit-seeking arbitrageurs
+        div.col-12.col-md-6.col-lg-4.text-center
+          p.lead.text-uppercase
+            i.fa.fa-lock
+            | Secure
+          p Transparent and auditable on-chain custody
+        div.col-12.col-md-6.col-lg-4.text-center
+          p.lead.text-uppercase
+            i.fa.fa-balance-scale
+            | Stable
+          p Lower volatility with diversified counterparty risk
+      div.row.mt-5
+        div.col-12.col-md-6.col-lg-4.text-center
+          p.lead
+            i.fa.fa-sitemap
+            | Redeemable
+          p Value preservation for the constituents
+        div.col-12.col-md-6.col-lg-4.text-center
+          p.lead
+            i.fa.fa-piggy-bank
+            | Yield Enhanced
+          p Savings interest yield enabled
+        div.col-12.col-md-6.col-lg-4.text-center
+          p.lead.text-uppercase
+            i.fa.fa-hand-holding-usd
+            | Liquid
+          p Pooled liquidity of underlying components
       div.ctas.py-md-5
-    div.transition.participate.top.mt-sm-5.mt-0
-
-  section.participate.text-center.py-5.wavy-bg-middle
-    h2.text-white.mb-5
-      | Join the 
-      strong Neutral Ecosystem
-    div.container
-      div.card-deck
-        div.card.ml-0
-          div.card-body
-            h4.mb-4.font-weight-normal Exchanges
-            p
-              | For exchanges, Neutral is an exciting new instrument available
-              | to market on your exchange. Neutral is an aggregate instrument
-              | with lower volatility that creates greater trading volume, larger
-              | liquidity pools, and higher engagement from users to differentiate
-              | your exchange.
-          div.card-footer
-            a(href='/exchanges.html') Learn more about Neutral for Exchanges
-        div.card
-          div.card-body
-            h4.mb-4.font-weight-normal Participants
-            p
-              | For participants, Neutral is an exciting new instrument that can be
-              | used to earn profits from asset price movements. Neutral processes
-              | revolve around the profit-seeking behavior of rational arbitrageurs.
-          div.card-footer
-            a(href='/how-it-works.html') Learn more about Neutral for Participants
-
-  section.team.text-center.wavy-bg
-    div.transition.participate.bottom
-    h2.pt-md-5
-      strong Our
-      |  Team
-    p.mb-5 Experienced team with deep trading and blockchain knowledge.
-    div.container
-      div.card-deck
-        div.card
-          img.rounded-circle(src='images/matt.jpg')
-          div.card-body
-            h5.card-title Matt Branton
-            h5.card-title CTO, Co-founder
-            ul
-              li (ex) Founder, Ember Financial (smart contracts)
-              li (ex) Founder, Coinlock
-              li (ex) Co-founder, World Financial Desk (high-frequency trading
-              li (ex) Systems Engineer, EWT (now Virtu Financial)
-          div.card-footer
-            a(href='https://www.linkedin.com/in/matthew-branton-9650432/' target='_blank')
-              div.name-link
-                | More about Matt
-              div
-                i.fab.fa-linkedin-in
-        div.card
-          img.rounded-circle(src='images/guo.jpg')
-          div.card-body
-            h5.card-title Guo Chen
-            h5.card-title CEO, Co-founder
-            ul
-              li (ex) Partner, FBG Capital (premier global crypto fund)
-              li (ex) Co-founder, Mega Credit (fintech startup)
-              li (ex) Analyst, China Renaissance
-          div.card-footer
-            a(href='https://www.linkedin.com/in/guo-chen-07b8711a/' target='_blank')
-              div.name-link
-                | More about Guo
-              div
-                i.fab.fa-linkedin-in
-        div.card
-          img.rounded-circle(src='images/jason.jpg')
-          div.card-body
-            h5.card-title Jason Zhang
-            h5.card-title COO, Co-founder
-            ul
-              li (ex) Investor, Sequoia Capital
-              li (ex) Analyst, MSD Capital (Michael Dell&apos;s family office)
-              li (ex) Co-founder, Crimson Xchange (education startup)
-          div.card-footer
-            a(href='https://www.linkedin.com/in/jason-zhang-0525/' target='_blank')
-              div.name-link
-                | More about Jason
-              div
-                i.fab.fa-linkedin-in
-    p.my-5
-      | We are looking for like-minded people to join our mission of building the decentralized financial system.
-    a(href='/careers.html')
-      button.btn.btn-primary.mb-md-5 View Job Openings
-    div.transition.involved.top.pt-5
-
-  section.get-involved.text-center.py-5
-    h2
-      strong Get
-      |  Involved
-    p.mb-5 Get started on building the decentralized financial ecosystem.
-    div.card-deck.container.mx-auto.w-50
-      div.social.card.mr-md-5.mt-sm-3.mt-0
-        div.card-body
-          div.social-circle
-            i.fab.fa-telegram-plane
-        div.card-footer
-          h4
-            a(href='https://t.me/neutralproject') Join us on Telegram
-      div.social.card.mr-md-5.mt-sm-3.mt-0
-        div.card-body
-          div.social-circle
-            i.fab.fa-twitter
-        div.card-footer
-          h4
-            a(href='https://twitter.com/neutral_project') Follow us on Twitter
-      div.social.card.mt-sm-3.mt-0
-        div.card-body
-          div.social-circle
-            i.fab.fa-medium-m
-        div.card-footer
-          h4
-            a(href='https://medium.com/@neutralproject') Join us on Medium
 
   footer
     div.container.py-5
-      div.row.text-center.text-lg-left
+      div.row.mb-5.text-center.text-lg-left
         div.col-sm-6.col-lg-3.mt-5.mt-lg-0
           p Neutral is the first blockchain-native aggregate financial instrument.
         div.col-sm-6.col-lg-3.mt-5.mt-lg-0
-          p Email:
-          p
-            a(href='mailto:hello@neturalproject.com') hello@neutralproject.com
         div.col-sm-6.col-lg-3.mt-5.mt-lg-0
-          p Address:
-          p 228 Park Avenue S #45204
-          p New York, NY 10003
+          p.h4.font-weight-bold.text-uppercase Contact
+          p
+            a(href='mailto:hello@neutralproject.com') hello@neutralproject.com
+          p 228 Park Avenue S #45204 <br> New York, NY 10003
         div.col-sm-6.col-lg-3.mt-5.mt-lg-0
+          p.h4.font-weight-bold.text-uppercase Community
           p
-            a(href='https://twitter.com/neutral_project') @neutralproject
+            a(href='https://t.me/neutralproject') Telegram
           p
-            a(href='https://t.me/neutralproject') telegram.com/neutral
+            a(href='https://twitter.com/neutral_project') Twitter
           p
-            a(href='https://medium.com/@neutralproject') medium.com/neutralproject
+            a(href='https://medium.com/@neutralproject') Medium
       hr
-      p.text-center Copyright 2018 Neutral
+      p.mt-5.text-center Copyright 2019 Neutral
 
   script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous')
   script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js' integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49' crossorigin='anonymous')

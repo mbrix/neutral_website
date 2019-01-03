@@ -27,7 +27,7 @@
 
 *:not(i) {
   font-family: 'Poppins', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 a {
@@ -36,12 +36,17 @@ a {
   }
 }
 
+body {
+  color: rgba(0, 0, 0, .87);
+}
+
 h1 { font-size: 2.5em; }
-h2 { font-size: 2.1875em; text-transform: uppercase; font-weight: 100; }
+h2 { font-size: 2.1875em; text-transform: uppercase; font-weight: 300; }
 h3 { font-size: 1.33em; }
 
 hr {
-  border-width: 4px;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, .5);
 }
 
 ul {
@@ -62,26 +67,37 @@ header {
     opacity: .03;
     z-index: -1;
   }
+  .header-logo-icon {
+    width: 64px;
+  }
+  .active a {
+    border-bottom: 2px solid white;
+  }
 }
 
 nav:not(i) {
   font-family: $header-font;
   text-transform: uppercase;
   a {
-    color: $body-color;
+    color: #FFFFFF;
   }
 }
 
-header.interior nav a { color: #FFFFFF }
+header.interior nav a {
+  color: #FFFFFF;
+}
 
 .hero {
   h1 {
-    font-weight: 100;
-    color: #000000;
+    font-weight: 300;
+    color: #FFFFFF;
   }
   h3 {
     font-weight: 200;
-    color: #000000;
+    color: #FFFFFF;
+  }
+  .hero-logo {
+    width: 200px;
   }
 }
 
@@ -98,6 +114,13 @@ header.interior nav a { color: #FFFFFF }
 
 .email-signup {
   background-color: #FFFFFF;
+}
+
+.benefits {
+  i {
+    color: #5592e0;
+    margin-right: 8px;
+  }
 }
 
 .backers {
@@ -169,7 +192,6 @@ header.interior nav a { color: #FFFFFF }
 .team,
 .partners {
   img {
-    box-shadow: rgba(0, 0, 0, 0.19) 2px 5px 10px;
     @include grayscale();
   }
   .about-name,
@@ -189,13 +211,31 @@ header.interior nav a { color: #FFFFFF }
   }
   .card {
     border: none;
-    box-shadow: rgba(0, 0, 0, 0.08) 2.5px 4.3px 27px 0;
-    padding-top: 1em;
     img {
-      width: 200px;
-      height: 200px;
-      margin: auto;
+      width: 100%;
+      height: 100%;
       @include grayscale();
+    }
+    margin-bottom: 20px;
+  }
+  .card-body {
+    position: absolute;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+
+    &:hover {
+      opacity: 1;
+      background: rgba(85, 146, 224, 0.8);
+    }
+  }
+  ul {
+    margin-left: -28px;
+    font-size: 14px;
+    font-weight: normal;
+    li {
+      font-family: sans-serif;
+      margin-bottom: 0.2em;
     }
   }
   .card-img-top {
@@ -207,38 +247,39 @@ header.interior nav a { color: #FFFFFF }
     }
   }
   .card-footer {
-    background: transparent;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    background: #ff8f68;
     padding: 0;
     display: flex;
-    background-color: #A9A9A9;
     color: white;
-    font-weight: 300;
+    height: 36px;
     a {
       display: inherit;
       width: 100%;
-      color: #FFFFFF;
+      color: rgba(255, 255, 255, .8);
       text-decoration: none;
     }
     .name-link {
-      background-color: #000000;
-      width: 80%;
-      clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
-      padding: .5em;
-    }
-    div {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 20%;
-      &:last-of-type {
-        font-size:1.5em;
-      }
+      padding: 0 .8em;
+      line-height: 36px;
+      font-size: 14px;
     }
   }
 }
 
+.home-header {
+  background-image: linear-gradient(-225deg, #65a2f0 0%, #5592e0 48%, #3572c0 100%)
+}
+
 .partners .short-bio p:first-child {
   min-height: 145px;
+}
+
+.hero-spacer {
+  height: 12vw;
 }
 
 .transition {
@@ -301,7 +342,7 @@ header.interior nav a { color: #FFFFFF }
 }
 
 footer {
-  background-color: #141414;
+  background-color: #5592e0;
   color: white;
   p {
     margin-bottom: .5em;
@@ -323,16 +364,11 @@ footer {
 
 header.interior {
   background-color: #000000;
-  &:after {
-    content: '';
-    height: 57px;
-    background: url(images/interior-header-bg.svg) no-repeat;
-    width: 100%;
-  }
+  background-image: linear-gradient(-225deg, #4582d0 0%, #3572c0 100%);
 }
 
 .title {
-  margin: 60px auto;
+  margin-bottom: 20px;
   h1 {
     font-size: 2.5em;
     text-transform: uppercase;
@@ -342,7 +378,8 @@ header.interior {
 
 .page-body {
   section {
-    margin-top: 5em;
+    // margin-top: 5em;
+    padding-top: 5em;
   }
 }
 
@@ -370,6 +407,20 @@ header.interior {
 
 .how-it-works .callout {
   background-color: #e9eff7;
+}
+
+.underline-block {
+  display: block;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 9px;
+    background: #5fb0f6;
+    margin-left: -75px;
+    margin-top: 22px;
+  }
 }
 
 .media {

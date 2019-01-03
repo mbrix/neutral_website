@@ -10,19 +10,19 @@ router.get('/', (req, res) => {
 });
 
 router.get('/team', (req, res) => {
-  res.render('site/team');
+  res.render('site/team', { active: 'team' });
 });
 
 router.get('/how-it-works', (req, res) => {
-  res.render('site/how-it-works');
+  res.render('site/how-it-works', { active: 'how-it-works' });
 });
 
 router.get('/exchanges', (req, res) => {
-  res.render('site/exchanges');
+  res.render('site/exchanges', { active: 'exchanges' });
 });
 
 router.get('/careers', (req, res) => {
-  res.render('site/careers');
+  res.render('site/careers', { active: 'careers' });
 });
 
 // Redirect old site URLs

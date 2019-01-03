@@ -10,10 +10,10 @@ html(lang="en")
     link(rel="stylesheet" href="/main.css")
     link(rel="shortcut icon" type="image/png" href="/favicon-16x16.png")
   body
-    header.interior.pt-3
+    header.interior.py-3
       div.d-flex.flex-column.flex-lg-row.px-5.align-items-center.justify-content-between
         a(href='/')
-          img(src='images/neutral-logo-white.svg')
+          img.header-logo-icon(src='images/neutral-logo-white.png')
         button.navbar-toggler.mx-auto.mt-3.mt-lg-0.d-lg-none(type='button' data-toggle='collapse' data-target='#fullNav')
           span.navbar-toggler-icon
             i.fas.fa-bars.text-white
@@ -22,72 +22,38 @@ html(lang="en")
             ul.navbar-nav.mx-auto.justify-content-between.text-white.text-center
               li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5
                 a(href='/') Home
-              li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5
+              li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5(class=active == 'team' ? 'active' : '')
                 a(href='/team') Team
-              li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5
+              li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5(class=active == 'how-it-works' ? 'active' : '')
                 a(href='/how-it-works') How it Works
-              li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5
+              li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5(class=active == 'exchanges' ? 'active' : '')
                 a(href='/exchanges') Exchanges
-              li.nav-item.active
+              li.nav-item(class=active == 'careers' ? 'active' : '')
                 a(href='/careers') Careers
-
-    svg(viewbox='0 0 1600 60' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink')
-      g#Page-2(stroke='none' stroke-width='1' fill='none' fill-rule='evenodd')
-        g#interior-header-bg(fill='#000000' fill-rule='nonzero')
-          path#Path-7(d='M-1,-1 L1601,-1 C1601,40 1601,60 1601,60 C1601,58 960,-70 -1,60')
 
     block body
 
-    div.transition.involved.top.pt-5
-    section.get-involved.text-center.py-5
-      h2
-        strong Get
-        |  Involved
-      p.mb-5 Get started on building the decentralized financial ecosystem.
-      .card-deck.container.mx-auto.w-50
-        .social.card.mr-md-5.mt-sm-3.mt-0
-          .card-body
-            .social-circle
-              i.fab.fa-telegram-plane
-          .card-footer
-            h4
-              a(href='https://t.me/neutralproject') Join us on Telegram
-        .social.card.mr-md-5.mt-sm-3.mt-0
-          .card-body
-            .social-circle
-              i.fab.fa-twitter
-          .card-footer
-            h4
-              a(href='https://twitter.com/neutral_project') Follow on Twitter
-        .social.card.mt-sm-3.mt-0
-          .card-body
-            .social-circle
-              i.fab.fa-medium-m
-          .card-footer
-            h4
-              a(href='https://medium.com/@neutralproject') Join us on Medium
     footer
-      .container.py-5
-        .row.text-center.text-lg-left
-          .col-sm-6.col-lg-3.mt-5.mt-lg-0
+      div.container.py-5
+        div.row.mb-5.text-center.text-lg-left
+          div.col-sm-6.col-lg-3.mt-5.mt-lg-0
             p Neutral is the first blockchain-native aggregate financial instrument.
-          .col-sm-6.col-lg-3.mt-5.mt-lg-0
-            p Email:
+          div.col-sm-6.col-lg-3.mt-5.mt-lg-0
+          div.col-sm-6.col-lg-3.mt-5.mt-lg-0
+            p.h4.font-weight-bold.text-uppercase Contact
             p
-              a(href='mailto:hello@neturalproject.com') hello@neutralproject.com
-          .col-sm-6.col-lg-3.mt-5.mt-lg-0
-            p Address:
-            p 228 Park Avenue S #45204
-            p New York, NY 10003
-          .col-sm-6.col-lg-3.mt-5.mt-lg-0
+              a(href='mailto:hello@neutralproject.com') hello@neutralproject.com
+            p 228 Park Avenue S #45204 <br> New York, NY 10003
+          div.col-sm-6.col-lg-3.mt-5.mt-lg-0
+            p.h4.font-weight-bold.text-uppercase Community
             p
-              a(href='https://twitter.com/neutral_project') @neutralproject
+              a(href='https://t.me/neutralproject') Telegram
             p
-              a(href='https://t.me/neutralproject') telegram.com/neutral
+              a(href='https://twitter.com/neutral_project') Twitter
             p
-              a(href='https://medium.com/@neutralproject') medium.com/neutralproject
+              a(href='https://medium.com/@neutralproject') Medium
         hr
-        p.text-center Copyright 2018 Neutral
+        p.mt-5.text-center Copyright 2019 Neutral
     // Modal for bios
     .modal(tabindex='-1' role='dialog')
       .modal-dialog(role='document')
