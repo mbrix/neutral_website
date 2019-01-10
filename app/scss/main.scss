@@ -434,8 +434,11 @@ header.interior {
     url(images/bg-wavy-gray.svg);
 }
 
-.how-it-works .callout {
-  background-color: #e9eff7;
+.how-it-works {
+  background-color: #f3f3f3;
+  .callout {
+    background-color: #e9eff7;
+  }
 }
 
 .underline-block {
