@@ -7,82 +7,80 @@ block body
           span.navbar-toggler-icon
             i.fas.fa-bars
         div.collapse.navbar-collapse#fullNav
-          ul.navbar-nav.mx-auto.w-75.justify-content-between.text-center
+          ul.navbar-nav.mx-auto.w-50.justify-content-between.text-center
             li.nav-item.active.mb-3.mb-md-0
               a(href="/") Home
             li.nav-item.mb-3.mb-md-0
               a(href="/team") Team
             li.nav-item.mb-3.mb-md-0
               a(href="/how-it-works") How it Works
-            li.nav-item.mb-3.mb-md-0
-              a(href="/exchanges") Exchanges
+            // li.nav-item.mb-3.mb-md-0
+            //   a(href="/exchanges") Exchanges
             li.nav-item
               a(href="/careers") Careers
 
     section.hero.text-center
       div.container.mt-5
         img.py-5.hero-logo(src='/images/neutral-logo-white.png')
-        h1 A Superior Digital Dollar
-        h3 Neutral makes owning crypto easy. Find your balance.
-        form#mc-embedded-subscribe-form.validate.d-flex.flex-column.flex-md-row.align-items-center(action='https://neutralproject.us19.list-manage.com/subscribe/post?u=596152852f3a264d0316ece5e&id=c3f27c22d6' method='post' name='mc-embedded-subscribe-form' target='_blank' novalidate='')
-          div.email-signup.w-50.mx-auto.mt-5.p-2.border.border-primary.d-flex.flex-column.flex-md-row.justify-content-between
-            input#mce-EMAIL.flex-1.flex-grow-1.mr-3.border-0(type='email' name='EMAIL' placeholder='Sign up for updates...')
-            div(style='position: absolute; left: -5000px;' aria-hidden='true')
-              input(type='text' name='b_596152852f3a264d0316ece5e_c3f27c22d6' tabindex='-1' value='')
-            button#mc-embedded-subscribe.btn.btn-primary.d-none.d-md-inline-block(type='submit' name='subscribe') Sign Up
-          button#mc-embedded-subscribe.btn.btn-primary.d-block.d-md-none.mt-3(type='submit' name='subscribe') Sign Up
-        div#mce-responses.mt-3
-          div#mce-error-response.response(style='display:none')
-          div#mce-success-response.response(style='display:none')
+        h2 A Superior Digital Dollar
+        div.container.w-75
+          p.my-5.text-white.text-left
+            | By aggregating a basket of other stablecoins, the Neutral Dollar 
+            | generates a lower volatility coin with a more subdued risk profile 
+            | than any individual stablecoin today. Grounded by theory and empirically 
+            | tested, the Neutral Dollar leverages our own unique process to ensure 
+            | price stability that is better than any stablecoin design out in the market. 
+          p.my-5.text-white.text-left
+            | The Neutral Dollar will serve as a medium of exchange, store of value, unit 
+            | of account, and complementary trading instrument for crypto enthusiasts. 
+            | To ensure our stablecoin provides the best utility available, it exhibits 
+            | several key principles:
+
       div.hero-spacer.mt-sm-5.mt-0
 
   section.about.text-center.position-relative
-    div.mt-5.mb-5
     div.container.benefits
-      p.my-5
-        | By aggregating a basket of other stablecoins, the Neutral Dollar 
-        | generates a lower volatility coin with a more subdued risk profile 
-        | than any individual stablecoin today. Grounded by theory and empirically 
-        | tested, the Neutral Dollar leverages our own unique process to ensure 
-        | price stability that is better than any stablecoin design out in the market. 
-      p.my-5
-        | The Neutral Dollar will serve as a medium of exchange, store of value, unit 
-        | of account, and complementary trading instrument for crypto enthusiasts. 
-        | To ensure our stablecoin provides the best utility available, it exhibits 
-        | several key principles:
-      div.my-5 &nbsp;
+      div.mb-5 &nbsp;
+      div.mt-5.mb-5 &nbsp;
       div.row.mt-5
-        div.col-12.col-md-6.col-lg-4.text-center
-          p.lead.text-uppercase
-            i.fa.fa-dumbbell
-            | Collateralized
-          p Maintained by profit-seeking arbitrageurs
-        div.col-12.col-md-6.col-lg-4.text-center
-          p.lead.text-uppercase
-            i.fa.fa-lock
-            | Secure
-          p Transparent and auditable on-chain custody
-        div.col-12.col-md-6.col-lg-4.text-center
-          p.lead.text-uppercase
-            i.fa.fa-balance-scale
-            | Stable
-          p Lower volatility with diversified counterparty risk
+        div.col-12.col-md-6.col-lg-4.pr-2
+          div.benefit
+            img(src="https://loremflickr.com/320/240")
+            p.lead.font-weight-bold Collateralized
+            p.font-weight-normal Maintained by profit-seeking arbitrageurs
+        div.col-12.col-md-6.col-lg-4.pr-2.pl-3
+          div.benefit
+            img(src="https://loremflickr.com/320/240")
+            p.lead.font-weight-bold Secure
+            p.font-weight-normal Transparent and auditable on-chain custody
+        div.col-12.col-md-6.col-lg-4.pl-3
+          div.benefit
+            img(src="https://loremflickr.com/320/240")
+            p.lead.font-weight-bold Stable
+            p.font-weight-normal Lower volatility with diversified counterparty risk
       div.row.mt-5
-        div.col-12.col-md-6.col-lg-4.text-center
-          p.lead
-            i.fa.fa-sitemap
-            | Redeemable
-          p Value preservation for the constituents
-        div.col-12.col-md-6.col-lg-4.text-center
-          p.lead
-            i.fa.fa-piggy-bank
-            | Yield Enhanced
-          p Savings interest yield enabled
-        div.col-12.col-md-6.col-lg-4.text-center
-          p.lead.text-uppercase
-            i.fa.fa-hand-holding-usd
-            | Liquid
-          p Pooled liquidity of underlying components
+        div.col-12.col-md-6.col-lg-4.pr-2
+          div.benefit
+            img(src="https://loremflickr.com/320/240")
+            p.lead.font-weight-bold Redeemable
+            p.font-weight-normal Value preservation for the constituents
+        div.col-12.col-md-6.col-lg-4.pr-2.pl-3
+          div.benefit
+            img(src="https://loremflickr.com/320/240")
+            p.lead.font-weight-bold Yield Enhanced
+            p.font-weight-normal Savings interest yield enabled
+        div.col-12.col-md-6.col-lg-4.pl-3
+          div.benefit
+            img(src="https://loremflickr.com/320/240")
+            p.lead.font-weight-bold Liquid
+            p.font-weight-normal Pooled liquidity of underlying components
+        div.container.w-75.text-left.mt-5.pt-4
+          p
+            text.font-weight-bold Neutral. Crypto Combined and Redefined. 
+            | We are a company dedicated to creating blockchain-native financial instruments.
+            | Our flagship products inherit ETF-like properties and are constructed in a rational
+            | and decentralized manner. Our approach results in globally shared liquidity, reduced
+            | volatility, a trustless pricing oracle, and frictionless on-chain token exchange.
       div.ctas.py-md-5
 
   footer
