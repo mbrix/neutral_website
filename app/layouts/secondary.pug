@@ -25,9 +25,7 @@ html(lang="en")
               li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5(class=active == 'team' ? 'active' : '')
                 a(href='/team') Team
               li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5(class=active == 'how-it-works' ? 'active' : '')
-                a(href='/how-it-works') How it Works
-              li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5(class=active == 'exchanges' ? 'active' : '')
-                a(href='/exchanges') Exchanges
+                a(href='/how-it-works') How It Works
               li.nav-item(class=active == 'careers' ? 'active' : '')
                 a(href='/careers') Careers
 
@@ -72,13 +70,11 @@ html(lang="en")
       (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);
     script(type='text/javascript').
       $(document).ready(function() {
-      $(".read-more").on('click', function(e) {
-      console.log(e.target);
-      var container = $(e.target).closest(".person");
-      console.log(container);
-      $(".modal-title").text(container.find(".about-name").text());
-      $(".modal-body").html(container.find(".long-bio").html());
-      $(".modal").modal();
-      });
+        $(".read-more").on('click', function(e) {
+          var container = $(e.target).closest(".person");
+          $(".modal-title").text(container.find(".about-name").text());
+          $(".modal-body").html(container.find(".long-bio").html());
+          $(".modal").modal();
+        });
       });
 

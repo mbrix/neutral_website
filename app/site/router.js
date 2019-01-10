@@ -18,7 +18,8 @@ router.get('/how-it-works', (req, res) => {
 });
 
 router.get('/exchanges', (req, res) => {
-  res.render('site/exchanges', { active: 'exchanges' });
+  res.redirect(301, '/');
+  // res.render('site/exchanges', { active: 'exchanges' });
 });
 
 router.get('/careers', (req, res) => {
