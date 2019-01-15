@@ -1,0 +1,69 @@
+extends ../layouts/secondary
+block body
+  div.page-body.pb-5
+    .container
+      section.title.text-center
+        h2.text-center.page-title
+          | Exchanges
+          div.underline-block
+        div.w-25.mx-auto.mb-5 &nbsp;
+        div.container.w-75.text-left
+          p
+            | For exchanges, Neutral is an exciting new instrument available
+            | to market on your exchange. Neutral is an aggregate instrument
+            | with lower volatility that creates greater trading volume, larger
+            | liquidity pools, and higher engagement from users to differentiate
+            | your exchange.
+      section
+        .row
+          .col-12.col-md-6
+            .media
+              img.mr-4(src='images/icons/people-circle.svg')
+              .media-body
+                p
+                  strong Driver of Trading Volume
+                p Encourage trading activities of underlying components on exchange
+            .media
+              img.mr-4(src='images/icons/square-circle.svg')
+              .media-body
+                p
+                  strong Trustless Liquidity Aggregation
+                p Exchanges support and reinforce themselves without ceding control of profit
+            .media
+              img.mr-4(src='images/icons/pricetag.svg')
+              .media-body
+                p
+                  strong Arbitrage Instrument
+                p Facilitate profit-seeking arbitrage behavior of rational participants
+            .media
+              img.mr-4(src='images/icons/clock-coins.svg')
+              .media-body
+                p
+                  strong Compliant Construction
+                p No centralized third-party custody or rebalancing
+          .col-12.col-md-6
+            //
+              <div class="callout whitepaper mb-5">
+              <i class="far fa-file-alt"></i>
+              <h5>Dive Deep with our Whitepaper</h5>
+              <p>
+              Our whitepaper dives deep into how Neutral works, and explains
+              how all components of Neutral work together to form the world's
+              first aggregate token.
+              </p>
+              <button class="btn btn-large btn-primary mt-3">Read the Whitepaper</button>
+              </div>
+            .callout.email
+              i.far.fa-envelope
+              h5 Sign Up for Updates
+              p Join our email list to stay updated on Neutral&apos;s progress.
+              form#mc-embedded-subscribe-form.validate.align-items-center(action='https://neutralproject.us19.list-manage.com/subscribe/post?u=596152852f3a264d0316ece5e&id=c3f27c22d6' method='post' name='mc-embedded-subscribe-form' target='_blank' novalidate='')
+                .email-signup.w-100.mx-auto.p-2.border.border-primary
+                  input#mce-EMAIL.w-100.mr-3.border-0(type='email' name='EMAIL' placeholder='Sign up for updates...')
+                  div(style='position: absolute; left: -5000px;' aria-hidden='true')
+                    input(type='text' name='b_596152852f3a264d0316ece5e_c3f27c22d6' tabindex='-1' value='')
+                button#mc-embedded-subscribe.btn.btn-primary.d-block.mt-3.mx-auto(type='submit' name='subscribe') Sign Up
+              #mce-responses.mt-3
+                #mce-error-response.response(style='display:none')
+                #mce-success-response.response(style='display:none')
+

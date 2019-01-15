@@ -1,0 +1,137 @@
+extends ../layouts/primary
+block body
+  header.position-relative.home-header
+    div.container.text-center
+      nav.navbar.navbar-expand-lg.mx-auto.pt-5
+        button.navbar-toggler.mx-auto(type="button" data-toggle="collapse" data-target="#fullNav")
+          span.navbar-toggler-icon
+            i.fas.fa-bars.text-white
+        div.collapse.navbar-collapse#fullNav
+          ul.navbar-nav.mx-auto.justify-content-between.text-center
+            li.nav-item.active.mb-3.mb-md-0
+              a(href="/") Home
+            li.nav-item.mb-3.mb-md-0
+              a(href="/how-it-works") How It Works
+            li.nav-item.mb-3.mb-md-0
+              a(href="/exchanges") Exchanges
+            li.nav-item.mb-3.mb-md-0
+              a(href="/team") Team
+            li.nav-item
+              a(href="/careers") Careers
+
+    section.hero.text-center
+      div.container.mt-5
+        img.pb-5.pt-1.hero-logo(src='/images/neutral-logo-white.png')
+        h2 A Superior Digital Dollar
+        div.container.w-75
+          form#mc-embedded-subscribe-form.validate.d-flex.flex-column.flex-md-row.align-items-center(action='https://neutralproject.us19.list-manage.com/subscribe/post?u=596152852f3a264d0316ece5e&id=c3f27c22d6' method='post' name='mc-embedded-subscribe-form' target='_blank' novalidate='')
+            div.email-signup.w-50.mx-auto.mt-5.px-2.border-bottom.border-white.d-flex.flex-column.flex-md-row.justify-content-between
+              input#mce-EMAIL.flex-1.flex-grow-1.mr-3.border-0(type='email' name='EMAIL' placeholder='Sign up for updates...' autocomplete="off")
+              div(style='position: absolute; left: -5000px;' aria-hidden='true')
+                input(type='text' name='b_596152852f3a264d0316ece5e_c3f27c22d6' tabindex='-1' value='')
+              button#mc-embedded-subscribe.btn.btn-primary.d-none.d-md-inline-block(type='submit' name='subscribe') Sign Up
+            button#mc-embedded-subscribe.btn.btn-primary.d-block.d-md-none.mt-3(type='submit' name='subscribe') Sign Up
+          div#mce-responses.mt-3
+            div#mce-error-response.response(style='display:none')
+            div#mce-success-response.response(style='display:none')
+          p.my-5.text-white.text-left
+            | By aggregating a basket of other stablecoins, the Neutral Dollar
+            | generates a lower volatility coin with a more subdued risk profile 
+            | than any individual stablecoin today. Grounded by theory and empirically 
+            | tested, the Neutral Dollar leverages our own unique process to ensure 
+            | price stability that is better than any stablecoin design out in the market.
+          p.my-5.text-white.text-left
+            | The Neutral Dollar will serve as a medium of exchange, store of value, unit 
+            | of account, and complementary trading instrument for crypto enthusiasts. 
+            | To ensure our stablecoin provides the best utility available, it exhibits 
+            | several key principles:
+      div.hero-spacer.mt-sm-3.mt-0
+    div.sm-sidebar
+      a(href="https://twitter.com/neutral_project")
+        div.sm-sidebar-item.sm-sidebar-twitter
+      a(href="https://medium.com/@neutralproject")
+        div.sm-sidebar-item.sm-sidebar-medium
+      a(href="https://t.me/neutralproject")
+        div.sm-sidebar-item.sm-sidebar-telegram
+      a(href="https://www.facebook.com/Neutral-Project-391548818084169/")
+        div.sm-sidebar-item.sm-sidebar-facebook
+      a(href="https://www.linkedin.com/company/neutralproject")
+        div.sm-sidebar-item.sm-sidebar-linkedin
+
+  section.about.text-center.position-relative
+    div.container.benefits
+      div.mb-5 &nbsp;
+      div.mt-5.mb-5 &nbsp;
+      div.row.mt-5
+        div.col-12.col-md-4.col-lg-4.pr-2
+          div.benefit
+            img(src="/images/icons/collateralized.jpg")
+            p.lead.font-weight-bold Collateralized
+            p.font-weight-normal Maintained by profit-seeking arbitrageurs
+        div.col-12.col-md-4.col-lg-4.pr-2.pl-3
+          div.benefit
+            img(src="/images/icons/secure.jpg")
+            p.lead.font-weight-bold Secure
+            p.font-weight-normal Transparent and auditable on-chain custody
+        div.col-12.col-md-4.col-lg-4.pl-3
+          div.benefit
+            img(src="/images/icons/stable.jpg")
+            p.lead.font-weight-bold Stable
+            p.font-weight-normal Lower volatility with diversified counterparty risk
+      div.row.mt-5
+        div.col-12.col-md-4.col-lg-4.pr-2
+          div.benefit
+            img(src="/images/icons/redeemable.jpg")
+            p.lead.font-weight-bold Redeemable
+            p.font-weight-normal Value preservation for the constituents
+        div.col-12.col-md-4.col-lg-4.pr-2.pl-3
+          div.benefit
+            img(src="/images/icons/interchangeable.jpg")
+            p.lead.font-weight-bold Interchangeable
+            p.font-weight-normal Enabled solution for token swaps
+        div.col-12.col-md-4.col-lg-4.pl-3
+          div.benefit
+            img(src="/images/icons/liquid.jpg")
+            p.lead.font-weight-bold Liquid
+            p.font-weight-normal Pooled liquidity of underlying components
+        div.container.w-75.text-left.mt-5.pt-4.d-none
+          p
+            text.font-weight-bold Neutral. Crypto Combined and Redefined. 
+            | We are a company dedicated to creating blockchain-native financial instruments.
+            | Our flagship products inherit ETF-like properties and are constructed in a rational
+            | and decentralized manner. Our approach results in globally shared liquidity, reduced
+            | volatility, a trustless pricing oracle, and frictionless on-chain token exchange.
+      div.ctas.py-md-5
+
+  footer
+    div.container.py-5
+      div.row.mb-5.text-center.text-lg-left
+        div.col-sm-12.col-lg-6.mt-5.mt-lg-0
+          img(src="/images/logo-square.png" width="60")
+        div.col-sm-12.col-lg-3.mt-5.mt-lg-0
+          p.h4.font-weight-bold.text-uppercase Contact
+          p
+            a(href='mailto:hello@neutralproject.com') hello@neutralproject.com
+          p 228 Park Avenue S <br> #45204 <br> New York, NY 10003
+        div.col-sm-12.col-lg-3.mt-5.mt-lg-0
+          p.h4.font-weight-bold.text-uppercase Community
+          p
+            a(href='https://twitter.com/neutral_project') Twitter
+          p
+            a(href='https://medium.com/@neutralproject') Medium
+          p
+            a(href='https://t.me/neutralproject') Telegram
+          p
+            a(href='https://www.facebook.com/Neutral-Project-391548818084169/') Facebook
+          p
+            a(href='https://www.linkedin.com/company/neutralproject') LinkedIn
+      hr
+      p.mt-5.text-center Copyright 2019 Neutral
+
+  script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js' integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49' crossorigin='anonymous')
+  script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js' integrity='sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy' crossorigin='anonymous')
+  script(type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js')
+  script(type='text/javascript').
+    (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);
+

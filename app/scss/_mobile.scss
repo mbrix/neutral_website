@@ -1,0 +1,61 @@
+@media(max-width:640px) {
+  h1 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  .ctas {
+    padding-bottom: 150px;
+  }
+  .team h2 {
+    // padding-top: 150px;
+  }
+  .team button:last-of-type {
+    margin-bottom: 150px;
+  }
+  .email-signup, .email {
+    width: 100% !important;
+  }
+}
+
+@media(max-width: 1000px) {
+  .card-deck-wrapper {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .card-deck {
+    display: block;
+    width: 100%;
+    margin-bottom: .75rem;
+    table-layout: fixed;
+    border-spacing: 1.25rem 0;
+  }
+  .card-deck .card {
+    display: block;
+    margin-bottom: .75rem;
+    vertical-align: top;
+  }
+  .card-deck .card:not(:first-child) {
+    margin-left: 0px;
+  }
+  .horiz-ctas {
+    width: 100%;
+  }
+
+  .benefits .benefit {
+    margin-bottom: 1rem;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 1200px) {
+  .team .short-bio p:first-child {
+    min-height: 144px;
+  }
+}
+
+@media(max-width: 768px) {
+  .team .short-bio p:first-child {
+    min-height: auto;
+  }
+}

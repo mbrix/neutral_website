@@ -1,0 +1,85 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title Neutral
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,300i,400,500")
+    link(rel="stylesheet" href="https://fontlibrary.org/face/hk-grotesk" type="text/css")
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous")
+    link(rel="stylesheet" href="/main.css")
+    link(rel="shortcut icon" type="image/png" href="/favicon-16x16.png")
+  body
+    header.interior.py-3
+      div.d-flex.flex-column.flex-lg-row.px-5.align-items-center.justify-content-between
+        a(href='/')
+          img.header-logo-icon(src='images/logo-square.png')
+        button.navbar-toggler.mx-auto.mt-3.mt-lg-0.d-lg-none(type='button' data-toggle='collapse' data-target='#fullNav')
+          span.navbar-toggler-icon
+            i.fas.fa-bars.text-white
+        nav.navbar.navbar-expand-lg
+          #fullNav.collapse.navbar-collapse
+            ul.navbar-nav.mx-auto.justify-content-between.text-white.text-center
+              li.nav-item.mb-3.mb-md-0.mr-0
+                a(href='/') Home
+              li.nav-item.mb-3.mb-md-0.mr-0(class=active == 'how-it-works' ? 'active' : '')
+                a(href='/how-it-works') How It Works
+              li.nav-item.mb-3.mb-md-0.mr-0(class=active == 'exchanges' ? 'active' : '')
+                a(href='/exchanges') Exchanges
+              li.nav-item.mb-3.mb-md-0.mr-0(class=active == 'team' ? 'active' : '')
+                a(href='/team') Team
+              li.nav-item(class=active == 'careers' ? 'active' : '')
+                a(href='/careers') Careers
+
+    block body
+
+    footer
+      div.container.py-5
+        div.row.mb-5.text-center.text-lg-left
+          div.col-sm-12.col-lg-6.mt-5.mt-lg-0
+            img(src="/images/logo-square.png" width="60")
+          div.col-sm-12.col-lg-3.mt-5.mt-lg-0
+            p.h4.font-weight-bold.text-uppercase Contact
+            p
+              a(href='mailto:hello@neutralproject.com') hello@neutralproject.com
+            p 228 Park Avenue S #45204 <br> New York, NY 10003
+          div.col-sm-12.col-lg-3.mt-5.mt-lg-0
+            p.h4.font-weight-bold.text-uppercase Community
+            p
+              a(href='https://twitter.com/neutral_project') Twitter
+            p
+              a(href='https://medium.com/@neutralproject') Medium
+            p
+              a(href='https://t.me/neutralproject') Telegram
+            p
+              a(href='https://www.facebook.com/Neutral-Project-391548818084169/') Facebook
+            p
+              a(href='https://www.linkedin.com/company/neutralproject') LinkedIn
+        hr
+        p.mt-5.text-center Copyright 2019 Neutral
+    // Modal for bios
+    .modal(tabindex='-1' role='dialog')
+      .modal-dialog(role='document')
+        .modal-content
+          .modal-header
+            h5.modal-title.font-weight-bold About Name
+            button.close(type='button' data-dismiss='modal' aria-label='Close')
+              span(aria-hidden='true') &times;
+          .modal-body
+            p Bio goes here
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js' integrity='sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT' crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js' integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49' crossorigin='anonymous')
+    script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js' integrity='sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy' crossorigin='anonymous')
+    script(type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js')
+    script(type='text/javascript').
+      (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);
+    script(type='text/javascript').
+      $(document).ready(function() {
+        $(".read-more").on('click', function(e) {
+          var container = $(e.target).closest(".person");
+          $(".modal-title").text(container.find(".about-name").text());
+          $(".modal-body").html(container.find(".long-bio").html());
+          $(".modal").modal();
+        });
+      });
+    script(type='text/javascript' src='/js/hero-lights.js')
