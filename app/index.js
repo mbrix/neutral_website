@@ -16,8 +16,6 @@ app.set('views', __dirname);
 app.set('view engine', 'pug');
 
 app.use(require('./site/router'))
-//app.use('/api', require('app/customers/router'))
-//app.use('/api', require('app/users/router'))
 
 app.use(require('./errors/not-found'))
 

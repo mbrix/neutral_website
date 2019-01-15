@@ -20,13 +20,13 @@ html(lang="en")
         nav.navbar.navbar-expand-lg
           #fullNav.collapse.navbar-collapse
             ul.navbar-nav.mx-auto.justify-content-between.text-white.text-center
-              li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5
+              li.nav-item.mb-3.mb-md-0.mr-0
                 a(href='/') Home
-              li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5(class=active == 'how-it-works' ? 'active' : '')
+              li.nav-item.mb-3.mb-md-0.mr-0(class=active == 'how-it-works' ? 'active' : '')
                 a(href='/how-it-works') How It Works
-              li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5(class=active == 'exchanges' ? 'active' : '')
+              li.nav-item.mb-3.mb-md-0.mr-0(class=active == 'exchanges' ? 'active' : '')
                 a(href='/exchanges') Exchanges
-              li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5(class=active == 'team' ? 'active' : '')
+              li.nav-item.mb-3.mb-md-0.mr-0(class=active == 'team' ? 'active' : '')
                 a(href='/team') Team
               li.nav-item(class=active == 'careers' ? 'active' : '')
                 a(href='/careers') Careers
@@ -67,7 +67,7 @@ html(lang="en")
               span(aria-hidden='true') &times;
           .modal-body
             p Bio goes here
-    script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js' integrity='sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT' crossorigin='anonymous')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js' integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49' crossorigin='anonymous')
     script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js' integrity='sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy' crossorigin='anonymous')
     script(type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js')
@@ -82,4 +82,4 @@ html(lang="en")
           $(".modal").modal();
         });
       });
-
+    script(type='text/javascript' src='/js/hero-lights.js')

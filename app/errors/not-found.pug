@@ -1,10 +1,13 @@
 extends ../layouts/secondary
 block body
-  div.page-body
+  div.page-body.not-found
     div.container
-      section.title.text-center
-        img(src='images/mattlost.jpg')
-        h1 Page Not Found
+      section.text-center
+        h2.text-center.page-title
+          | Page Not Found
+          div.underline-block
+        div.top.my-5 &nbsp;
         p Sorry, we can&apos;t find that page. Make sure to check the URL and try again.
         p
           a(href='/') Back to Home
+        div.top.py-5 &nbsp;
