@@ -13,7 +13,7 @@ html(lang="en")
     header.interior.py-3
       div.d-flex.flex-column.flex-lg-row.px-5.align-items-center.justify-content-between
         a(href='/')
-          img.header-logo-icon(src='images/neutral-logo-white.png')
+          img.header-logo-icon(src='images/logo-square.png')
         button.navbar-toggler.mx-auto.mt-3.mt-lg-0.d-lg-none(type='button' data-toggle='collapse' data-target='#fullNav')
           span.navbar-toggler-icon
             i.fas.fa-bars.text-white
@@ -22,10 +22,12 @@ html(lang="en")
             ul.navbar-nav.mx-auto.justify-content-between.text-white.text-center
               li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5
                 a(href='/') Home
-              li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5(class=active == 'team' ? 'active' : '')
-                a(href='/team') Team
               li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5(class=active == 'how-it-works' ? 'active' : '')
                 a(href='/how-it-works') How It Works
+              li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5(class=active == 'exchanges' ? 'active' : '')
+                a(href='/exchanges') Exchanges
+              li.nav-item.mb-3.mb-md-0.mr-0.mr-lg-5(class=active == 'team' ? 'active' : '')
+                a(href='/team') Team
               li.nav-item(class=active == 'careers' ? 'active' : '')
                 a(href='/careers') Careers
 
@@ -34,22 +36,25 @@ html(lang="en")
     footer
       div.container.py-5
         div.row.mb-5.text-center.text-lg-left
-          div.col-sm-6.col-lg-3.mt-5.mt-lg-0
-            p Neutral is the first blockchain-native aggregate financial instrument.
-          div.col-sm-6.col-lg-3.mt-5.mt-lg-0
-          div.col-sm-6.col-lg-3.mt-5.mt-lg-0
+          div.col-sm-12.col-lg-6.mt-5.mt-lg-0
+            img(src="/images/logo-square.png" width="60")
+          div.col-sm-12.col-lg-3.mt-5.mt-lg-0
             p.h4.font-weight-bold.text-uppercase Contact
             p
               a(href='mailto:hello@neutralproject.com') hello@neutralproject.com
             p 228 Park Avenue S #45204 <br> New York, NY 10003
-          div.col-sm-6.col-lg-3.mt-5.mt-lg-0
+          div.col-sm-12.col-lg-3.mt-5.mt-lg-0
             p.h4.font-weight-bold.text-uppercase Community
-            p
-              a(href='https://t.me/neutralproject') Telegram
             p
               a(href='https://twitter.com/neutral_project') Twitter
             p
               a(href='https://medium.com/@neutralproject') Medium
+            p
+              a(href='https://t.me/neutralproject') Telegram
+            p
+              a(href='https://www.facebook.com/Neutral-Project-391548818084169/') Facebook
+            p
+              a(href='https://www.linkedin.com/company/neutralproject') LinkedIn
         hr
         p.mt-5.text-center Copyright 2019 Neutral
     // Modal for bios

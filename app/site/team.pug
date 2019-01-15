@@ -3,7 +3,7 @@ block body
   div.page-body.int-team
     div.container
       section.team
-        h2.text-center
+        h2.text-center.page-title
           | Team
           div.underline-block
         div.w-25.mx-auto.mb-5 &nbsp;
@@ -115,6 +115,16 @@ block body
                     | Administration at National University of Singapore.
             div.col-12.col-md-6.col-lg-4.text-center.person
               div.card.mx-3
+                img(src='images/nelson.png')
+                div.card-body.text-left.text-white
+                  h5.mb-1.card-title Nelson Chen
+                  p.card-title Business Development
+                  p
+                    | Business development. Previously analyst at BlackRock and research 
+                    | consultant at WorldQuant. Computer Science at Georgia Tech and 
+                    | Finance at University of Texas.
+            div.col-12.col-md-6.col-lg-4.text-center.person
+              div.card.mx-3
                 img(src='images/mikec.jpg')
                 div.card-body.text-left.text-white
                   h5.mb-1.card-title Michael Chen
@@ -172,32 +182,64 @@ block body
                   p
                     | Development. Previously full stack and mobile developer,
                     | applications lead at Sumo, co-founder of Zairge.
+            div.col-12.col-md-6.col-lg-4.text-center.person
+              div.card.mx-3
+                img(src='images/danielle.jpg')
+                div.card-body.text-left.text-white
+                  h5.mb-1.card-title Danielle Smith
+                  p.card-title Marketing
+                  p
+                    | Marketing & design. Previous blockchain experience at BTC Media, 
+                    | Po.et, and SAP. Lead marketing initiatives at Cisco, Google, 
+                    | VaynerMedia, and Marriott, among others.
         div.w-25.mx-auto.mb-5 &nbsp;
-        h2.pt-md-5.mb-5.text-center
+        h2.text-center.page-title
           | Advisors
           div.underline-block
         div.w-25.mx-auto.mb-5 &nbsp;
         div.container
           div.row
             div.col-12.col-md-6.col-lg-4.text-center.person
-              div.card
-                img(src='images/jason.jpg')
+              div.card.mx-3
+                img(src='/images/davidl.jpg')
                 div.card-body.text-left.text-white
-                  h5.mb-1.card-title Jason Zhang
-                  p.card-title COO, Co-founder
-                  ul
-                    li (ex) Investor, Sequoia Capital
-                    li (ex) Analyst, MSD Capital (Michael Dell&apos;s family office)
-                    li (ex) Co-founder, Crimson Xchange (education startup)
+                  h5.mb-1.card-title David X. Li
+                  p.card-title Statistics
+                  p(style="font-size: 0.9rem;")
+                    | Statistics & actuarial science. Professor at Shanghai Advanced 
+                    | Institute of Finance (SAIF). Adjunct Professor at University of 
+                    | Waterloo. Pioneered the use of Gaussian copula models for the 
+                    | pricing of collateralized debt obligations (CDOs).
                   div.card-footer
-                    a(href='https://www.linkedin.com/in/jason-zhang-0525/' target='_blank')
-                      div.font-weight-bold.name-link Read More &nbsp; &#8594;
+                    div.font-weight-bold.name-link.read-more Read More &nbsp; &#8594;
+                    div.person.d-none
+                      div.about-name David X. Li
+                      div.long-bio
+                        p
+                          | David Li is a professor at Shanghai Advanced Institute of Finance 
+                          | (SAIF), affiliated with Shanghai Jiao Tong University. He is also 
+                          | adjunct professor at University of Waterloo. 
+                        p
+                          | The Financial Times has called him "the world’s most influential 
+                          | actuary." His paper "On Default Correlation: A Copula Function Approach" 
+                          | was the first appearance of the Gaussian copula applied to CDOs published 
+                          | in 2000, which quickly became a tool for financial institutions to correlate 
+                          | associations between multiple financial securities. 
+                        p
+                          | Most recently, he was the head of modeling for AIG Investments. He was 
+                          | previously with China International Capital Corporation (CICC) Limited, 
+                          | Barclays Capital, and Citigroup. As one of the early pioneers in credit 
+                          | derivatives, he has established a valuation methodology which has been 
+                          | become the market standard: the Gaussian copula model or Li model. 
+                          | His work has been featured on the front page of The Wall Street Journal. 
+                          | He initiated and built the first commercial CDO software, CDO Manager, 
+                          | at the RiskMetrics Group (RMG). 
 
         div.w-25.mx-auto.mb-5 &nbsp;
-        h2.pt-md-5.mb-5.text-center
+        h2.text-center.page-title
           | Partners
           div.underline-block
-        div.w-25.mx-auto.mb-2 &nbsp;
+        div.w-25.mx-auto.mb-5 &nbsp;
         div.d-flex.flex-column.align-items-center.justify-content-center.flex-grow-1
           div.d-flex.flex-column.flex-md-row.align-items-center
             img.pt-3.pt-md-0(src='images/sequoia-black.png')

@@ -1,4 +1,6 @@
 @import 'variables';
+@import 'mobile';
+@import 'herolights';
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
 @mixin primary-tint() {
@@ -25,8 +27,15 @@
   @include shadow();
 }
 
+::-webkit-input-placeholder { color: $light-placeholder-color; }
+:-moz-placeholder { opacity: 1; color: $light-placeholder-color; }
+::-moz-placeholder { opacity: 1; color: $light-placeholder-color; }
+:-ms-input-placeholder { color: $light-placeholder-color; }
+::-ms-input-placeholder { color: $light-placeholder-color; }
+::placeholder { color: $light-placeholder-color; }
+
 *:not(i) {
-  font-family: 'Poppins', sans-serif;
+  // font-family: 'Poppins', sans-serif;
   font-weight: 300;
 }
 
@@ -38,6 +47,7 @@ a {
 
 body {
   color: rgba(0, 0, 0, .87);
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 h1 { font-size: 2.5em; }
@@ -80,6 +90,7 @@ nav:not(i) {
   a {
     color: #FFFFFF;
     font-size: 22px;
+    margin: 0 2rem;
   }
 }
 
@@ -87,13 +98,19 @@ header.interior nav a {
   color: #FFFFFF;
 }
 
+li.nav-item a:hover {
+  color: white;
+}
+
 .hero {
+  position: relative;
   color: white;
   h1 {
     font-weight: 300;
   }
   h2 {
-    font-weight: bold;
+    font-size: 1.7em;
+    font-weight: 500;
     text-transform: none;
   }
   h3 {
@@ -102,8 +119,29 @@ header.interior nav a {
   .hero-logo {
     width: 200px;
   }
-  p {
-    font-size: 18px;
+
+  .email-signup {
+    border-width: 2px !important;
+    position: relative;
+
+    input[type="email"] {
+      background: transparent;
+      font-size: 18px;
+      color: white;
+      line-height: 46px;
+    }
+
+    button[type="submit"] {
+      border-radius: 50px;
+      background: rgba(255,255,255,0.2);
+      padding: .5rem 3rem;
+      font-size: 1.2rem;
+      border-color: white;
+      border-width: 2px;
+      position: absolute;
+      bottom: -2px;
+      right: -24px;
+    }
   }
 }
 
@@ -116,10 +154,6 @@ header.interior nav a {
 .horiz-ctas {
   width: 50%;
   margin: auto;
-}
-
-.email-signup {
-  background-color: #FFFFFF;
 }
 
 .benefits {
@@ -159,24 +193,6 @@ header.interior nav a {
   color: white;
   h5 {
     font-weight: 200;
-  }
-}
-
-.wavy-bg {
-  position: relative;
-  &::after {
-    position: absolute;
-    content: '';
-    z-index: -1;
-    background: url(images/bg-wavy-gray.png) no-repeat;
-    background-position: bottom;
-    background-size: cover;
-    height: 610px;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    @include grayscale();
-    opacity: .1;
   }
 }
 
@@ -231,7 +247,6 @@ header.interior nav a {
     font-weight: 500;
   }
   .read-more {
-    text-decoration: underline;
     cursor: pointer;
   }
   .short-bio {
@@ -279,13 +294,13 @@ header.interior nav a {
   }
   .card-footer {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 14px;
+    left: 20px;
     width: 50%;
-    background: #ff8f68;
+    background: #ffffff;
     padding: 0;
     display: flex;
-    color: white;
+    color: #5fb0f6;
     height: 36px;
     a {
       display: inherit;
@@ -302,7 +317,49 @@ header.interior nav a {
 }
 
 .home-header {
-  background-image: linear-gradient(-225deg, #65a2f0 0%, #5592e0 48%, #3572c0 100%)
+  background-image: linear-gradient(-225deg, #65a2f0 0%, #5592e0 48%, #3572c0 100%);
+
+  .sm-sidebar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 8rem;
+
+    .sm-sidebar-item {
+      display: flex;
+      width: 34px;
+      height: 34px;
+      margin: 20px auto;
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+
+    .sm-sidebar-medium {
+      background-image: url('/images/icons/medium.png');
+    }
+
+    .sm-sidebar-telegram {
+      background-image: url('/images/icons/telegram.png');
+    }
+
+    .sm-sidebar-twitter {
+      background-image: url('/images/icons/twitter.png');
+    }
+
+    .sm-sidebar-facebook {
+      background-image: url('/images/icons/facebook.png');
+    }
+
+    .sm-sidebar-linkedin {
+      background-image: url('/images/icons/linkedin.png');
+    }
+  }
 }
 
 .partners .short-bio p:first-child {
@@ -310,7 +367,7 @@ header.interior nav a {
 }
 
 .hero-spacer {
-  height: 12vw;
+  height: 4vw;
 }
 
 .transition {
@@ -407,7 +464,14 @@ header.interior {
   }
 }
 
+.page-title {
+  text-transform: none;
+  font-weight: bold;
+  color: #5fb0f6;
+}
+
 .page-body {
+  background-color: #f3f3f3;
   section {
     // margin-top: 5em;
     padding-top: 5em;
@@ -428,12 +492,20 @@ header.interior {
     font-size: 2.5em;
     margin-bottom: .5em;
   }
-  background:
-    linear-gradient(
-      rgba(233,239,247,.9),
-      rgba(233,239,247,.9),
-    ),
-    url(images/bg-wavy-gray.svg);
+  background-color: #ffffff;
+  box-shadow: 0px 3px 12px rgba(0,0,0,0.13);
+  .email-signup, input {
+    background: #ffffff;
+  }
+
+  .email-signup input {
+    &::-webkit-input-placeholder { color: $dark-placeholder-color; }
+    &:-moz-placeholder { opacity: 1; color: $dark-placeholder-color; }
+    &::-moz-placeholder { opacity: 1; color: $dark-placeholder-color; }
+    &:-ms-input-placeholder { color: $dark-placeholder-color; }
+    &::-ms-input-placeholder { color: $dark-placeholder-color; }
+    &::placeholder { color: $dark-placeholder-color; }
+  }
 }
 
 .how-it-works {
@@ -466,63 +538,5 @@ header.interior {
   }
   strong {
     font-weight: 500;
-  }
-}
-
-@media(max-width:640px) {
-  h1 {
-    font-size: 2em;
-  }
-  h3 {
-    font-size: 1em;
-  }
-  .ctas {
-    padding-bottom: 150px;
-  }
-  .team h2 {
-    padding-top: 150px;
-  }
-  .team button:last-of-type {
-    margin-bottom: 150px;
-  }
-  .email-signup, .email {
-    width: 100% !important;
-  }
-}
-
-@media(max-width: 1000px) {
-  .card-deck-wrapper {
-    margin-right: 0;
-    margin-left: 0;
-  }
-  .card-deck {
-    display: block;
-    width: 100%;
-    margin-bottom: .75rem;
-    table-layout: fixed;
-    border-spacing: 1.25rem 0;
-  }
-  .card-deck .card {
-    display: block;
-    margin-bottom: .75rem;
-    vertical-align: top;
-  }
-  .card-deck .card:not(:first-child) {
-    margin-left: 0px;
-  }
-  .horiz-ctas {
-    width: 100%;
-  }
-}
-
-@media(min-width: 768px) and (max-width: 1200px) {
-  .team .short-bio p:first-child {
-    min-height: 144px;
-  }
-}
-
-@media(max-width: 768px) {
-  .team .short-bio p:first-child {
-    min-height: auto;
   }
 }
