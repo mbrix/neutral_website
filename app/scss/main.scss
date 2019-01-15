@@ -78,7 +78,7 @@ header {
     z-index: -1;
   }
   .header-logo-icon {
-    width: 64px;
+    width: 48px;
   }
   .active a {
     font-weight: bold;
@@ -96,6 +96,11 @@ nav:not(i) {
 
 header.interior nav a {
   color: #FFFFFF;
+}
+
+.header-logo-link {
+  position: absolute;
+  left: 26px;
 }
 
 li.nav-item a:hover {
@@ -317,7 +322,9 @@ li.nav-item a:hover {
 }
 
 .home-header {
-  background-image: linear-gradient(-225deg, #65a2f0 0%, #5592e0 48%, #3572c0 100%);
+  background-image: url('/images/header_bg.png'), linear-gradient(-225deg, #65a2f0 0%, #5592e0 48%, #3572c0 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
 
   .sm-sidebar {
     position: absolute;
