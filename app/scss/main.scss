@@ -134,19 +134,27 @@ li.nav-item a:hover {
       font-size: 18px;
       color: white;
       line-height: 46px;
+      &:focus, &:active {
+        outline: none;
+      }
     }
+  }
 
-    button[type="submit"] {
-      border-radius: 50px;
-      background: rgba(255,255,255,0.2);
-      padding: .5rem 3rem;
-      font-size: 1.2rem;
-      border-color: white;
-      border-width: 2px;
-      position: absolute;
-      bottom: -2px;
-      right: -24px;
-    }
+  .email-signup button[type="submit"], .mc-sub-mobile {
+    border-radius: 50px;
+    background: rgba(255,255,255,0.2);
+    padding: .5rem 3rem;
+    font-size: 1.2rem;
+    border-color: white;
+    border-width: 2px;
+    position: absolute;
+    bottom: -2px;
+    right: -24px;
+  }
+
+  .mc-sub-mobile {
+    position: relative;
+    right: initial;
   }
 }
 
@@ -187,6 +195,10 @@ li.nav-item a:hover {
     color: #5592e0;
     margin-right: 8px;
   }
+}
+
+.benefits-row-2 {
+  margin-top: 3rem;
 }
 
 .backers {
@@ -241,15 +253,27 @@ li.nav-item a:hover {
   background-color: #eeeeee;
 }
 
+.team-container, .advisors-container {
+  width: 85%;
+}
+
 .team,
-.partners {
+.partners,
+.advisors-container {
   img {
     @include grayscale();
   }
+
+  .card-title {
+    font-size: 15px;
+  }
+
   .about-name,
   .card-title:first-child,
   {
     font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 0 !important;
   }
   .read-more {
     cursor: pointer;
@@ -274,6 +298,10 @@ li.nav-item a:hover {
     opacity: 0;
     height: 100%;
     width: 100%;
+
+    p {
+      font-size: 0.8rem;
+    }
 
     &:hover {
       opacity: 1;
