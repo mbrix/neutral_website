@@ -351,7 +351,8 @@ li.nav-item a:hover {
 
 .home-header {
   background-image: url('/images/header_bg.png'), linear-gradient(-225deg, #65a2f0 0%, #5592e0 48%, #3572c0 100%);
-  background-size: cover;
+  background-size: calc(100% + 100px);
+  background-position: -100px;
   background-repeat: no-repeat;
 
   .sm-sidebar {
