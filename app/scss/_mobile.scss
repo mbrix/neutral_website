@@ -19,6 +19,16 @@
   }
 }
 
+@media(max-width: 991px) {
+  .hero .email-signup {
+    width: 75% !important;
+  }
+
+  .hero .email-signup input[type="email"] {
+    width: 250px;
+  }
+}
+
 @media(max-width: 1000px) {
   .card-deck-wrapper {
     margin-right: 0;
@@ -56,10 +66,39 @@
   .team .short-bio p:first-child {
     min-height: 144px;
   }
+  .team .team-container, .team .advisors-container {
+    width: 100%;
+  }
 }
 
 @media(max-width: 768px) {
   .team .short-bio p:first-child {
     min-height: auto;
+  }
+
+  .team .card {
+    .card-title {
+      font-size: 18px;
+    }
+    .card-title:first-child {
+      font-size: 21px;
+    }
+    .card-body p {
+      font-size: 1rem;
+    }
+  }
+
+  .home-header .sm-sidebar {
+    width: 60px;
+    a .sm-sidebar-item {
+      width: 25px;
+      height: 25px;
+      margin: 16px auto;
+    }
+  }
+
+
+  .benefits-row-2 {
+    margin-top: 0 !important;
   }
 }
