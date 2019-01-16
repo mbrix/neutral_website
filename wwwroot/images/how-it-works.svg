@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1125px" height="892px" viewBox="0 0 1125 892" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1130px" height="897px" viewBox="0 0 1130 897" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
-    <title>Desktop HD Copy 2</title>
+    <title>Desktop HD Copy 4</title>
     <desc>Created with Sketch.</desc>
-    <g id="Desktop-HD-Copy-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Desktop-HD-Copy-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-20" transform="translate(-158.000000, -373.000000)">
             <g id="Group-18" transform="translate(178.000000, 390.000000)">
                 <circle id="Oval" stroke="#62B0F6" stroke-width="5" fill-rule="nonzero" cx="321" cy="419" r="239"></circle>
@@ -12,46 +12,47 @@
                 <rect id="Rectangle-Copy-13" fill="#62B0F6" fill-rule="nonzero" x="0" y="297" width="242" height="242"></rect>
                 <rect id="Rectangle-Copy-15" fill="#FFFFFF" fill-rule="nonzero" x="45" y="370" width="152" height="152"></rect>
                 <rect id="Rectangle-Copy-14" fill="#62B0F6" fill-rule="nonzero" transform="translate(518.007143, 418.007143) rotate(-315.000000) translate(-518.007143, -418.007143) " x="419.007143" y="319.007143" width="198" height="198"></rect>
-                <text id="Header_Body-text1-Copy-3" font-family="Roboto-Bold, Roboto" font-size="20" font-weight="bold" line-spacing="28" letter-spacing="0.5555555" fill="#292929">
-                    <tspan x="295.729384" y="180">Trading </tspan>
-                    <tspan x="282.997179" y="208">Institution</tspan>
+                <text id="Header_Body-text1-Copy-3" font-family="Poppins-Bold, Poppins" font-size="18" font-weight="bold" line-spacing="28" letter-spacing="0.49999997" fill="#292929">
+                    <tspan x="293.874" y="179">Trading </tspan>
+                    <tspan x="281.352" y="207">Institution</tspan>
                 </text>
-                <text id="Header_Body-text1-Copy-14" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" line-spacing="28" letter-spacing="0.4999999" fill="#292929">
-                    <tspan x="483.261719" y="215">Sell Neutral </tspan>
-                    <tspan x="507.15625" y="243">Dollar</tspan>
+                <text id="Header_Body-text1-Copy-14" font-family="Poppins-Regular, Poppins" font-size="18" font-weight="normal" line-spacing="28" letter-spacing="0.499999911" fill="#292929">
+                    <tspan x="478.953001" y="215">Sell Neutral </tspan>
+                    <tspan x="504.472" y="243">Dollar</tspan>
                 </text>
-                <text id="Header_Body-text1-Copy-22" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" line-spacing="28" letter-spacing="0.4999999" fill="#292929">
-                    <tspan x="483.861818" y="716">One - Click Exchange Function</tspan>
+                <text id="Header_Body-text1-Copy-22" font-family="Poppins-Regular, Poppins" font-size="18" font-weight="normal" line-spacing="28" letter-spacing="0.499999911" fill="#292929">
+                    <tspan x="562.453001" y="716">One - Click Exchange </tspan>
+                    <tspan x="621.791" y="744">Function</tspan>
                 </text>
-                <text id="Header_Body-text1-Copy-16" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" line-spacing="28" letter-spacing="0.4999999" fill="#292929">
-                    <tspan x="34.3706062" y="215">Deposit Neutral </tspan>
-                    <tspan x="75.1562503" y="243">Dollar</tspan>
+                <text id="Header_Body-text1-Copy-16" font-family="Poppins-Regular, Poppins" font-size="18" font-weight="normal" line-spacing="28" letter-spacing="0.499999911" fill="#292929">
+                    <tspan x="46.9350004" y="215">Deposit </tspan>
+                    <tspan x="18.6690006" y="243">Neutral Dollar</tspan>
                 </text>
-                <text id="Header_Body-text1-Copy-17" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" line-spacing="28" letter-spacing="0.4999999" fill="#292929">
-                    <tspan x="45.4277351" y="636">Redeem Neutral </tspan>
-                    <tspan x="88.1562503" y="664">Dollar</tspan>
+                <text id="Header_Body-text1-Copy-17" font-family="Poppins-Regular, Poppins" font-size="18" font-weight="normal" line-spacing="28" letter-spacing="0.499999911" fill="#292929">
+                    <tspan x="37.0250007" y="636">Redeem Neutral </tspan>
+                    <tspan x="85.4720003" y="664">Dollar</tspan>
                 </text>
-                <text id="Header_Body-text1-Copy-15" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" line-spacing="28" letter-spacing="0.4999999" fill="#292929">
-                    <tspan x="459.664551" y="636">Buy Neutral </tspan>
-                    <tspan x="483.65625" y="664">Dollar</tspan>
+                <text id="Header_Body-text1-Copy-15" font-family="Poppins-Regular, Poppins" font-size="18" font-weight="normal" line-spacing="28" letter-spacing="0.499999911" fill="#292929">
+                    <tspan x="454.470001" y="636">Buy Neutral </tspan>
+                    <tspan x="480.972" y="664">Dollar</tspan>
                 </text>
-                <text id="Header_Body-text1-Copy-24" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" line-spacing="28" letter-spacing="0.4999999" fill="#292929">
-                    <tspan x="701.428712" y="376">Hold Neutral</tspan>
-                    <tspan x="729.65625" y="404">Dollar</tspan>
+                <text id="Header_Body-text1-Copy-24" font-family="Poppins-Regular, Poppins" font-size="18" font-weight="normal" line-spacing="28" letter-spacing="0.499999911" fill="#292929">
+                    <tspan x="696.528001" y="376">Hold Neutral</tspan>
+                    <tspan x="726.972" y="404">Dollar</tspan>
                 </text>
-                <text id="Header_Body-text1-Copy-5" font-family="Roboto-Bold, Roboto" font-size="20" font-weight="bold" line-spacing="28" letter-spacing="0.5555555" fill="#292929">
-                    <tspan x="472.276801" y="422">Exchange</tspan>
+                <text id="Header_Body-text1-Copy-5" font-family="Poppins-Bold, Poppins" font-size="18" font-weight="bold" line-spacing="28" letter-spacing="0.49999997" fill="#292929">
+                    <tspan x="475.253" y="421">Exchange</tspan>
                 </text>
-                <text id="Header_Body-text1-Copy-9" font-family="Roboto-Bold, Roboto" font-size="20" font-weight="bold" line-spacing="28" letter-spacing="0.5555555" fill="#292929">
-                    <tspan x="54.2019318" y="341">Neutral Dollar</tspan>
+                <text id="Header_Body-text1-Copy-9" font-family="Poppins-Bold, Poppins" font-size="18" font-weight="bold" line-spacing="28" letter-spacing="0.49999997" fill="#292929">
+                    <tspan x="53.4650002" y="340">Neutral Dollar</tspan>
                 </text>
-                <text id="Header_Body-text1-Copy-10" font-family="Roboto-Bold, Roboto" font-size="20" font-weight="bold" line-spacing="28" letter-spacing="0.5555555" fill="#62B0F6">
-                    <tspan x="65.4307729" y="405">Stable Coin </tspan>
-                    <tspan x="81.590712" y="433">Reserve</tspan>
+                <text id="Header_Body-text1-Copy-10" font-family="Poppins-Bold, Poppins" font-size="18" font-weight="bold" line-spacing="28" letter-spacing="0.49999997" fill="#62B0F6">
+                    <tspan x="64.4400002" y="404">Stable Coin </tspan>
+                    <tspan x="81.2150001" y="432">Reserve</tspan>
                 </text>
-                <text id="Header_Body-text1-Copy-4" font-family="Roboto-Bold, Roboto" font-size="20" font-weight="bold" line-spacing="28" letter-spacing="0.5555555" fill="#292929">
-                    <tspan x="295.729384" y="639">Trading </tspan>
-                    <tspan x="282.997179" y="667">Institution</tspan>
+                <text id="Header_Body-text1-Copy-4" font-family="Poppins-Bold, Poppins" font-size="18" font-weight="bold" line-spacing="28" letter-spacing="0.49999997" fill="#292929">
+                    <tspan x="293.874" y="638">Trading </tspan>
+                    <tspan x="281.352" y="666">Institution</tspan>
                 </text>
                 <circle id="Oval" fill="#A1CDF4" fill-rule="nonzero" cx="73.5" cy="478.5" r="21.5"></circle>
                 <circle id="Oval-Copy" fill="#A1CDF4" fill-rule="nonzero" cx="119.5" cy="478.5" r="21.5"></circle>
@@ -67,48 +68,48 @@
                 </text>
                 <g id="Group-8" transform="translate(818.000000, 219.000000)">
                     <rect id="Rectangle" fill="#62B0F6" fill-rule="nonzero" x="0" y="0" width="267" height="101"></rect>
-                    <text id="Header_Body-text1-Copy-18" font-family="Roboto-Bold, Roboto" font-size="20" font-weight="bold" line-spacing="28" letter-spacing="0.5555555" fill="#292929">
-                        <tspan x="89.7714846" y="56">Investors</tspan>
+                    <text id="Header_Body-text1-Copy-18" font-family="Poppins-Bold, Poppins" font-size="18" font-weight="bold" line-spacing="28" letter-spacing="0.49999997" fill="#292929">
+                        <tspan x="88.4420001" y="55">Investors</tspan>
                     </text>
                 </g>
                 <g id="Group-8-Copy" transform="translate(818.000000, 0.000000)">
                     <rect id="Rectangle" fill="#62B0F6" fill-rule="nonzero" x="0" y="0.00768818055" width="267" height="60"></rect>
-                    <text id="Header_Body-text1-Copy-18" font-family="Roboto-Bold, Roboto" font-size="20" font-weight="bold" line-spacing="28" letter-spacing="0.5555555" fill="#FFFFFF">
-                        <tspan x="47.4950091" y="36">Secondary Market</tspan>
+                    <text id="Header_Body-text1-Copy-18" font-family="Poppins-Bold, Poppins" font-size="18" font-weight="bold" line-spacing="28" letter-spacing="0.49999997" fill="#FFFFFF">
+                        <tspan x="45.0490002" y="35">Secondary Market</tspan>
                     </text>
                 </g>
                 <g id="Group-8-Copy-2" transform="translate(3.000000, 0.000000)">
                     <rect id="Rectangle" fill="#62B0F6" fill-rule="nonzero" x="0" y="0.00768818055" width="677" height="60"></rect>
-                    <text id="Header_Body-text1-Copy-18" font-family="Roboto-Bold, Roboto" font-size="20" font-weight="bold" line-spacing="28" letter-spacing="0.5555555" fill="#FFFFFF">
-                        <tspan x="265.301541" y="36">Primary Market</tspan>
+                    <text id="Header_Body-text1-Copy-18" font-family="Poppins-Bold, Poppins" font-size="18" font-weight="bold" line-spacing="28" letter-spacing="0.49999997" fill="#FFFFFF">
+                        <tspan x="263.401" y="35">Primary Market</tspan>
                     </text>
                 </g>
                 <g id="Group-11" transform="translate(818.000000, 369.000000)">
                     <rect id="Rectangle-Copy-5" fill="#62B0F6" fill-rule="nonzero" x="0" y="0" width="267" height="101"></rect>
-                    <text id="Header_Body-text1-Copy-19" font-family="Roboto-Bold, Roboto" font-size="20" font-weight="bold" line-spacing="28" letter-spacing="0.5555555" fill="#292929">
-                        <tspan x="105.267361" y="54">Funds</tspan>
+                    <text id="Header_Body-text1-Copy-19" font-family="Poppins-Bold, Poppins" font-size="18" font-weight="bold" line-spacing="28" letter-spacing="0.49999997" fill="#292929">
+                        <tspan x="104.571" y="53">Funds</tspan>
                     </text>
                 </g>
                 <g id="Group-13" transform="translate(818.000000, 519.000000)">
                     <rect id="Rectangle-Copy-16" fill="#62B0F6" fill-rule="nonzero" x="0" y="0" width="267" height="101"></rect>
-                    <text id="Header_Body-text1-Copy-20" font-family="Roboto-Bold, Roboto" font-size="20" font-weight="bold" line-spacing="28" letter-spacing="0.5555555" fill="#292929">
-                        <tspan x="94.4633249" y="54">Projects</tspan>
+                    <text id="Header_Body-text1-Copy-20" font-family="Poppins-Bold, Poppins" font-size="18" font-weight="bold" line-spacing="28" letter-spacing="0.49999997" fill="#292929">
+                        <tspan x="94.3530001" y="53">Projects</tspan>
                     </text>
                 </g>
                 <g id="Group-16" transform="translate(818.000000, 669.000000)">
                     <rect id="Rectangle-Copy-17" fill="#62B0F6" fill-rule="nonzero" x="0" y="0" width="267" height="101"></rect>
-                    <text id="Header_Body-text1-Copy-21" font-family="Roboto-Bold, Roboto" font-size="20" font-weight="bold" line-spacing="28" letter-spacing="0.5555555" fill="#292929">
-                        <tspan x="92.3930124" y="26">Platform </tspan>
-                        <tspan x="92.9545358" y="54">Partners</tspan>
-                        <tspan x="91.1044924" y="82">(Wallets)</tspan>
+                    <text id="Header_Body-text1-Copy-21" font-family="Poppins-Bold, Poppins" font-size="18" font-weight="bold" line-spacing="28" letter-spacing="0.49999997" fill="#292929">
+                        <tspan x="91.2680001" y="25">Platform </tspan>
+                        <tspan x="92.1390001" y="53">Partners</tspan>
+                        <tspan x="89.2970001" y="81">(Wallets)</tspan>
                     </text>
                 </g>
                 <g id="Group-16-Copy" transform="translate(0.000000, 762.000000)">
                     <rect id="Rectangle-Copy-17" fill="#62B0F6" fill-rule="nonzero" x="0" y="0" width="242" height="101"></rect>
-                    <text id="Header_Body-text1-Copy-21" font-family="Roboto-Bold, Roboto" font-size="20" font-weight="bold" line-spacing="28" letter-spacing="0.5555555" fill="#292929">
-                        <tspan x="82.0257795" y="26">External</tspan>
-                        <tspan x="77.9345251" y="54">Financial</tspan>
-                        <tspan x="79.9603498" y="82">Partners</tspan>
+                    <text id="Header_Body-text1-Copy-21" font-family="Poppins-Bold, Poppins" font-size="18" font-weight="bold" line-spacing="28" letter-spacing="0.49999997" fill="#292929">
+                        <tspan x="80.7468141" y="25">External</tspan>
+                        <tspan x="76.1138141" y="53">Financial</tspan>
+                        <tspan x="79.1448141" y="81">Partners</tspan>
                     </text>
                 </g>
                 <path d="M3.5,539 L3.5,774" id="Path-4" stroke="#62B0F6" stroke-width="5" fill-rule="nonzero"></path>
