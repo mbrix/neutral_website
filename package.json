@@ -12,6 +12,10 @@
     "pug": "^2.0.3"
   },
   "scripts": {
-    "start": "node ./app/server.js"
+    "start": "node ./app/server.js",
+    "compile": "pug --output-style compressed -o dist/ app/site/*.pug && pug --output-style compressed -o dist/ app/errors/not-found.pug"
+  },
+  "devDependencies": {
+    "pug-cli": "^1.0.0-alpha6"
   }
 }
