@@ -1,5 +1,6 @@
 doctype html
 html(lang="en")
+  block vars
   head
     meta(charset="utf-8")
     meta(name="viewport" content="width=device-width, initial-scale=1")
@@ -23,13 +24,13 @@ html(lang="en")
               li.nav-item.mb-3.mb-md-0.mr-0
                 a(href='/') Home
               li.nav-item.mb-3.mb-md-0.mr-0(class=active == 'how-it-works' ? 'active' : '')
-                a(href='/how-it-works') How It Works
+                a(href='/how-it-works.html') How It Works
               li.nav-item.mb-3.mb-md-0.mr-0(class=active == 'exchanges' ? 'active' : '')
-                a(href='/exchanges') Exchanges
+                a(href='/exchanges.html') Exchanges
               li.nav-item.mb-3.mb-md-0.mr-0(class=active == 'team' ? 'active' : '')
-                a(href='/team') Team
+                a(href='/team.html') Team
               li.nav-item(class=active == 'careers' ? 'active' : '')
-                a(href='/careers') Careers
+                a(href='/careers.html') Careers
 
     block body
 

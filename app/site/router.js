@@ -5,31 +5,26 @@ const router = new express.Router()
 
 router.use(express.static(join(__dirname, '../../wwwroot')));
 
-router.get('/', (req, res) => {
-  res.render('site/index');
+router.get('/index.html', (req, res) => {
+  res.render('site/index');;
 });
 
-router.get('/team', (req, res) => {
-  res.render('site/team', { active: 'team' });
+router.get('/team.html', (req, res) => {
+  res.render('site/team');
 });
 
-router.get('/how-it-works', (req, res) => {
-  res.render('site/how-it-works', { active: 'how-it-works' });
+router.get('/how-it-works.html', (req, res) => {
+  res.render('site/how-it-works');
 });
 
-router.get('/exchanges', (req, res) => {
-  res.render('site/exchanges', { active: 'exchanges' });
+router.get('/exchanges.html', (req, res) => {
+  res.render('site/exchanges');
 });
 
-router.get('/careers', (req, res) => {
-  res.render('site/careers', { active: 'careers' });
+router.get('/careers.html', (req, res) => {
+  res.render('site/careers');
 });
 
-// Redirect old site URLs
-router.get('/index.html', (_, res) => res.redirect(301, '/'));
-router.get('/team.html', (_, res) => res.redirect(301, '/team'));
-router.get('/how-it-works.html', (_, res) => res.redirect(301, '/how-it-works'));
-router.get('/exchanges.html', (_, res) => res.redirect(301, '/exchanges'));
-router.get('/careers.html', (_, res) => res.redirect(301, '/careers'));
+router.get('/', (_, res) => res.redirect(301, '/index.html'));
 
 module.exports = router;
