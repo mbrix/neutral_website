@@ -257,6 +257,10 @@ li.nav-item a:hover {
   width: 85%;
 }
 
+.sp-container, .partners-container {
+  width: 70%;
+}
+
 .team,
 .partners,
 .advisors-container {
@@ -291,6 +295,27 @@ li.nav-item a:hover {
       width: 100%;
       height: 100%;
       @include grayscale();
+    }
+
+    .authio-logo {
+      width: 70%;
+      margin-left: 15%;
+      margin-top: -17px;
+    }
+
+    .trust-logo {
+      width: 70%;
+      margin-left: 15%;
+    }
+
+    .squire-logo {
+      width: 80%;
+      margin-left: 10%;
+    }
+
+    .cooley-logo {
+      width: 90%;
+      margin-left: 5%;
     }
   }
   .card-body {
@@ -346,6 +371,12 @@ li.nav-item a:hover {
       line-height: 36px;
       font-size: 14px;
     }
+  }
+}
+
+.partners-container {
+  .card {
+    margin-bottom: 2rem;
   }
 }
 
