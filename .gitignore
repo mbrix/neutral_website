@@ -1,5 +1,6 @@
 # dependencies
 /node_modules
+/wwwroot/dashboard/node_modules
 
 # testing
 /coverage
@@ -7,6 +8,8 @@
 # production
 /build
 /dist
+/wwwroot/dashboard/build
+/wwwroot/dashboard/dist
 
 # misc
 .DS_Store
