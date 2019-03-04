@@ -9,8 +9,9 @@ class CompositionTableView extends Component<Props> {
     const { lines } = this.props;
     const rows = lines.map(line => (
       <tr key={`line-comp-${line.token.address}`}>
-        <td>{line.token.symbol}</td>
-        <td>{line.balance.toString()}</td>
+        <td className="align-left">{line.token.symbol}</td>
+        <td className="align-right">{line.percent.toFixed(2)}%</td>
+        <td className="align-right">{line.balance.toString()}</td>
       </tr>
     ));
 
@@ -19,8 +20,9 @@ class CompositionTableView extends Component<Props> {
         <table>
           <thead>
             <tr>
-              <th>Token</th>
-              <th>Balance</th>
+              <th className="align-left">Token</th>
+              <th className="align-right">Allocation</th>
+              <th className="align-right">Volume</th>
             </tr>
           </thead>
           <tbody>
