@@ -1,0 +1,96 @@
+.chart-column {
+  float: left;
+  vertical-align: top;
+}
+
+.table-column {
+  float: left;
+  vertical-align: top;
+  width: calc(100% - 290px);
+  margin-left: 52px;
+}
+
+.table-color-hint {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 6px;
+  height: 100%;
+  background: blue;
+}
+
+.composition-chart {
+  margin-bottom: 28px;
+  position: relative;
+  width: 230px;
+  left: -16px;
+}
+
+.chart-wedge {
+  opacity: 0.8;
+}
+
+  .chart-wedge:hover {
+    cursor: pointer;
+    opacity: 1.0;
+  }
+
+.chart-token-info {
+  position: absolute;
+  text-align: center;
+  width: calc(100% - 40px);
+  height: 60px;
+  top: 86px;
+  left: 20px;
+}
+
+.chart-token-symbol {
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.chart-token-balance {
+  font-size: 14px;
+}
+
+.info-block {
+  margin-bottom: 12px;
+}
+
+  .info-block .info-label {
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    color: rgba(0, 0, 0, .8);
+    margin-bottom: 2px;
+  }
+
+  .info-block .info-value {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+.chart-loader {
+  width: 182px;
+  height: 182px;
+  border: 24px solid rgba(0, 0, 0, .2);
+  border-radius: 230px;
+  margin-bottom: 32px;
+  position: relative;
+  animation: spin 0.5s linear infinite;
+}
+
+  .chart-loader:after {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 2px;
+    left: 50%;
+    top: calc(50% - 10px);
+    background: rgba(0, 0, 0, .12);
+  }
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
