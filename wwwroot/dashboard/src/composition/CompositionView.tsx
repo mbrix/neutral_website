@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import CompositionChartView from './CompositionChartView';
 import CompositionTableView from './CompositionTableView';
 
 interface Props {
@@ -11,10 +12,16 @@ class CompositionView extends Component<Props> {
 
     return (
       <div>
-        Collateral lines
-        <CompositionTableView
-          lines={lines}
-        />
+        <div className="chart-column">
+          <CompositionChartView
+            lines={lines}
+          />
+        </div>
+        <div className="table-column">
+          <CompositionTableView
+            lines={lines}
+          />
+        </div>
       </div>
     );
   }
