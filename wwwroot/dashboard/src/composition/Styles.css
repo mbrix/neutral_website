@@ -1,3 +1,17 @@
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.composition-header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
 .chart-column {
   float: left;
   vertical-align: top;
@@ -9,6 +23,10 @@
   width: calc(100% - 290px);
   margin-left: 52px;
 }
+
+  .table-column table {
+    width: 100%;
+  }
 
 .table-color-hint {
   position: absolute;
@@ -23,7 +41,6 @@
   margin-bottom: 28px;
   position: relative;
   width: 230px;
-  left: -16px;
 }
 
 .chart-wedge {

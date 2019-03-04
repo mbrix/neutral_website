@@ -12,6 +12,9 @@ class CompositionView extends Component<Props> {
 
     return (
       <div>
+        <div className="composition-header">
+          Basket Composition
+        </div>
         <div className="chart-column">
           <CompositionChartView
             lines={lines}

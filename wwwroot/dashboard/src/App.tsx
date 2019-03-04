@@ -19,16 +19,23 @@ class App extends Component<{}, State> {
   }
 
   async updateLineBalances() {
+    let balanceSum = 0;
     const balances = await Promise.all(config.tokens.map(async token => {
       const balance = await this.vault.getLineBalance(
         config.nusd.address,
         token.address,
       );
 
+      balanceSum += balance.toNumber();
       return ({ balance, token });
     }));
 
-    this.setState({ lines: balances });
+    this.setState({
+      lines: balances.map(balance => ({
+        ...balance,
+        percent: balance.balance.toNumber() / balanceSum * 100,
+      })),
+    });
   }
 
   render() {
