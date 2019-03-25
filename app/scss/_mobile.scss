@@ -111,3 +111,21 @@
     margin-top: 0 !important;
   }
 }
+
+@media(max-width: 440px) {
+  .container.team-container {
+    width: 100%;
+  }
+
+  .team .card {
+    .card-title {
+      font-size: 18px;
+    }
+    .card-title:first-child {
+      font-size: 21px;
+    }
+    .card-body p {
+      font-size: 0.8rem;
+    }
+  }
+}
