@@ -1,0 +1,40 @@
+extends ../layouts/secondary
+block vars
+  - var active='download'
+block body
+  div.page-body.int-team
+    div.container
+      section.team
+        h2.text-center.page-title
+          | Download
+          div.underline-block
+        div.w-25.mx-auto.mb-5 &nbsp;
+        div.container.w-75.text-left
+          p.text-center
+            text Access the Neutral platform by downloading the desktop app below:
+        div.w-25.mx-auto.mb-4 &nbsp;
+        div.container.team-container
+          div.row
+            div.col-12.col-md-6.col-lg-4.text-center.app-dl
+              a(href="#")
+                div.card.mx-3
+                  img(src='images/logos/windows.png')
+                  div.app-dl-description Windows
+                  div.app-dl-v v1.0.3
+            div.col-12.col-md-6.col-lg-4.text-center.app-dl
+              a(href="#")
+                div.card.mx-3
+                  img(src='images/logos/apple.png')
+                  div.app-dl-description Mac OS
+                  div.app-dl-v v1.0.3
+            div.col-12.col-md-6.col-lg-4.text-center.app-dl
+              a(href="#")
+                div.card.mx-3
+                  img(src='images/logos/linux.png')
+                  div.app-dl-description Linux (64-bit)
+                  div.app-dl-v v1.0.3
+        div.w-75.mx-auto.pb-5 &nbsp;
+          p.text-center
+            text Alternatively, you may access the DApp through your 
+            | browser at <a href="https://dapp.neutralproject.com">dapp.neutralproject.com</a>
+        div.w-25.mx-auto.pb-5 &nbsp;

@@ -25,8 +25,8 @@ router.get('/careers.html', (req, res) => {
   res.render('site/careers');
 });
 
-router.get('/token.html', (req, res) => {
-  res.render('site/token');
+router.get('/download.html', (req, res) => {
+  res.render('site/download');
 });
 
 

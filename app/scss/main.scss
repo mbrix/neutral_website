@@ -89,9 +89,15 @@ nav:not(i) {
   font-family: $header-font;
   a {
     color: #FFFFFF;
-    font-size: 22px;
-    margin: 0 2rem;
+    font-size: 20px;
+    margin: 0 1.6rem;
   }
+}
+
+.nav-download {
+  padding-left: 1em;
+  margin-left: 1em;
+  border-left: 1px solid rgba(255, 255, 255, .8);
 }
 
 header.interior nav a {
@@ -645,4 +651,31 @@ header.interior {
   strong {
     font-weight: 500;
   }
+}
+
+.team .app-dl {
+  .card img {
+    width: 36%;
+    margin-left: 32%;
+    margin-top: 36px;
+    margin-bottom: 24px;
+  }
+
+  &:hover {
+    .card {
+      box-shadow: 0px 3px 12px rgba(0,0,0,0.13)
+    }
+  }
+}
+
+.app-dl-description {
+  margin-bottom: 4px;
+  font-weight: bold;
+  color: black;
+}
+
+.app-dl-v {
+  margin-bottom: 24px;
+  font-size: .84em;
+  color: rgba(0, 0, 0, .8);
 }
