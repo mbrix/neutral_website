@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { ethers } from 'ethers';
 
 interface Props {
   lines: any[]
@@ -11,7 +12,7 @@ class CompositionTableView extends Component<Props> {
       <tr key={`line-comp-${line.token.address}`}>
         <td className="align-left">{line.token.symbol}</td>
         <td className="align-right">{line.percent.toFixed(2)}%</td>
-        <td className="align-right">{line.balance.toString()}</td>
+        <td className="align-right">{line.balance.toFixed(6)}</td>
       </tr>
     ));
 

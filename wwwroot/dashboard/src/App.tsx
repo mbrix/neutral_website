@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { ethers } from 'ethers';
 import logo from './logo.svg';
 import './App.css';
 import NeutralVault from './services/vault/NeutralVault';
@@ -26,14 +27,17 @@ class App extends Component<{}, State> {
         token.address,
       );
 
-      balanceSum += balance.toNumber();
-      return ({ balance, token });
+      balanceSum += parseFloat(ethers.utils.formatUnits(balance, token.decimals));
+      return ({
+        token,
+        balance: parseFloat(ethers.utils.formatUnits(balance, token.decimals)),
+      });
     }));
 
     this.setState({
       lines: balances.map(balance => ({
         ...balance,
-        percent: balance.balance.toNumber() / balanceSum * 100,
+        percent: balance.balance / balanceSum * 100,
       })),
     });
   }
