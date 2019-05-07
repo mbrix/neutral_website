@@ -25,6 +25,11 @@ router.get('/careers.html', (req, res) => {
   res.render('site/careers');
 });
 
+router.get('/download.html', (req, res) => {
+  res.render('site/download');
+});
+
+
 router.get('/', (_, res) => res.redirect(301, '/index.html'));
 
 module.exports = router;
