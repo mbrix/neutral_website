@@ -1,0 +1,15 @@
+<header class="site-header">
+
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ escape }}</a>
+
+    <nav class="site-nav">
+      <div class="trigger">
+        <a class="page-link" href="https://neutralproject.com">Home</a>
+      </div>
+    </nav>
+  </div>
+</header>

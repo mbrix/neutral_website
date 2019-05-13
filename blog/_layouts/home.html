@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">Neutral &mdash; Posts</h2>
+    <p class="post-list-about">
+      Neutral Dollar is a metastable basket of stablecoins. The result is a digital
+      dollar which has lower volatility and combines fragmented pools of liquidity
+    </p>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        <a class="post-tile-link" href="{{ post.url | relative_url }}">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <div class="post-image" style="background-image: url('{{ post.image }}');"></div>
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h3>
+            <span class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </span>
+          </h3>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </a>
+      </li>
+      {%- endfor -%}
+    </ul>
+
+  {%- endif -%}
+
+</div>
