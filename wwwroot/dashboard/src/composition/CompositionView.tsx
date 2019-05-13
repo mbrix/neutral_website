@@ -11,7 +11,7 @@ class CompositionView extends Component<Props> {
     const { lines } = this.props;
 
     return (
-      <div>
+      <div className="composition-wrapper">
         <div className="composition-header">
           Basket Composition
         </div>

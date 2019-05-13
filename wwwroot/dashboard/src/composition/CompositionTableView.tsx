@@ -12,7 +12,7 @@ class CompositionTableView extends Component<Props> {
       <tr key={`line-comp-${line.token.address}`}>
         <td className="align-left">{line.token.symbol}</td>
         <td className="align-right">{line.percent.toFixed(2)}%</td>
-        <td className="align-right">{line.balance.toFixed(6)}</td>
+        <td className="align-right">{line.balance.toFixed(10)}</td>
       </tr>
     ));
 

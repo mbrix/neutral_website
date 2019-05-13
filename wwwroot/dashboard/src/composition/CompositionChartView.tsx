@@ -28,8 +28,8 @@ type SVGFillData = {
   value: number,
 };
 
-const CHART_SIZE = 230;
-const CHART_THICKNESS = 24;
+const CHART_SIZE = 180;
+const CHART_THICKNESS = 18;
 const CHART_RADIUS = CHART_SIZE / 2;
 const colorFn = d3.scaleOrdinal(d3.schemeCategory10);
 const getTokenColor = (token: string) => {
@@ -69,8 +69,19 @@ class CompositionChartView extends React.Component<Props, State> {
 
   renderTokenInfo() {
     const { activeToken } = this.state;
-    if (!activeToken || !activeToken.token) {
+    const { lines } = this.props;
+    const nonEmptyLines = lines.filter(line => line.balance).length;
+
+    if (!nonEmptyLines) {
       return null;
+    }
+
+    if (!activeToken || !activeToken.token) {
+      return (
+        <div className="chart-token-hint">
+          Hover for <br /> details.
+        </div>
+      );
     }
 
     /*&nbsp;({activeToken.percent.toFixed(2)}%)*/
@@ -80,7 +91,7 @@ class CompositionChartView extends React.Component<Props, State> {
           {activeToken.token.symbol.toUpperCase()}
         </div>
         <div className="chart-token-balance">
-          {ethers.utils.commify(activeToken.balance.toString())}
+          {ethers.utils.commify(activeToken.balance.toFixed(2))}
         </div>
       </div>
     );
@@ -93,6 +104,15 @@ class CompositionChartView extends React.Component<Props, State> {
     const { lines } = this.props;
     if (!lines.length) {
       return null;
+    }
+
+    const nonEmptyLines = lines.filter(line => line.balance).length;
+    if (!nonEmptyLines) {
+      return (
+        <div>
+          Basket is empty.
+        </div>
+      );
     }
 
     const data: PieDatum[] = lines.map(line => ({

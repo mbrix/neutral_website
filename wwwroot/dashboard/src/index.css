@@ -8,6 +8,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #eeeeee;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /*
+  background: #151250;
+  color: white;
+  */
 }
 
 code {
@@ -15,7 +24,24 @@ code {
     monospace;
 }
 
+header {
+  background-color: #000000;
+  background-image: linear-gradient(-225deg, #4582d0 0%, #3572c0 100%);
+  height: 105px;
+  width: 100%;
+}
+
+.header-logo {
+  background-image: url('https://neutralproject.com/images/logo-square.png');
+  background-size: cover;
+  width: 48px;
+  height: 48px;
+  float: left;
+  margin-top: 28px;
+  margin-left: 26px;
+}
+
 #dash-app {
-  width: 800px;
-  border: 1px solid black;
+  margin-top: 48px;
+  width: 100%;
 }

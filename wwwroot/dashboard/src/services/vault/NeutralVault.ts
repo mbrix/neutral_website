@@ -8,8 +8,8 @@ interface NeutralVault {
 class NeutralVault implements NeutralVault {
   contract? = undefined;
 
-  constructor(vaultAddress: string) {
-    const provider = new ethers.providers.JsonRpcProvider('https://ropsten.infura.io/v3/94f3af2745c94d22a6d04478907a5f2b');
+  constructor(vaultAddress: string, providerUrl: string) {
+    const provider = new ethers.providers.JsonRpcProvider(providerUrl);
     this.contract = new ethers.Contract(
       vaultAddress,
       NeutralVaultJSON.abi,

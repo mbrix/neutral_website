@@ -6,10 +6,26 @@
   text-align: left;
 }
 
-.composition-header {
-  text-align: center;
+.composition-wrapper {
+  float: left;
+  width: 100%;
+}
+
+.composition-header, .quote-header {
+  text-align: left;
   margin-bottom: 20px;
+  margin-left: 28px;
   font-size: 24px;
+}
+
+.quote-meta {
+  font-size: 14px;
+  margin-top: 24px;
+}
+
+.quote-wrapper table {
+  margin-left: 24px;
+  width: calc(100% - 32px);
 }
 
 .chart-column {
@@ -28,8 +44,21 @@
     width: 100%;
   }
 
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  border-bottom: 1px solid rgba(0, 0, 0, .12);
+}
+
+thead th {
+  padding: 6px 0;
+}
+
 tbody td {
   font-family: 'Roboto Mono', monospace;
+  padding: 6px 0;
 }
 
 .table-color-hint {
@@ -48,7 +77,7 @@ tbody td {
 }
 
 .chart-wedge {
-  opacity: 0.8;
+  opacity: 0.32;
 }
 
   .chart-wedge:hover {
@@ -56,19 +85,31 @@ tbody td {
     opacity: 1.0;
   }
 
+.chart-token-hint {
+  font-family: 'Roboto Mono', monospace;
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+  width: calc(100% - 40px);
+  height: 60px;
+  top: 68px;
+  left: 20px;
+}
+
 .chart-token-info {
+  font-family: 'Roboto Mono', monospace;
   position: absolute;
   text-align: center;
   width: calc(100% - 40px);
   height: 60px;
-  top: 86px;
+  top: 60px;
   left: 20px;
 }
 
 .chart-token-symbol {
   font-weight: bold;
   font-size: 17px;
-  margin-bottom: 8px;
+  margin-bottom: 2px;
 }
 
 .chart-token-balance {
@@ -92,11 +133,12 @@ tbody td {
   }
 
 .chart-loader {
-  width: 182px;
-  height: 182px;
-  border: 24px solid rgba(0, 0, 0, .2);
+  width: 142px;
+  height: 142px;
+  border: 18px solid rgba(0, 0, 0, .2);
   border-radius: 230px;
   margin-bottom: 32px;
+  margin-left: 24px;
   position: relative;
   animation: spin 0.5s linear infinite;
 }
@@ -114,4 +156,34 @@ tbody td {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+@media only screen and (max-width: 600px) {
+  .address-info {
+    margin-left: 0;
+  }
+
+  .address-mono {
+    width: fit-content;
+    display: block;
+    margin: 4px auto;
+    font-size: 12px;
+  }
+
+  .composition-header, .quote-header {
+    margin-left: 12px;
+  }
+
+  .table-column {
+    margin-left: 12px;
+    width: calc(100% - 24px);
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .quote-wrapper table {
+    margin-left: 12px;
+    font-size: 11px;
+    width: calc(100% - 24px);
+  }
 }

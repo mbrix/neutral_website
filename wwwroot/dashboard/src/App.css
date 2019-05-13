@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  height: 300px;
-  padding-top: 64px;
+  padding-top: 12px;
   margin-bottom: 48px;
 }
 
@@ -23,6 +22,29 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.environment-control {
+  margin-bottom: 12px;
+}
+
+.address-info {
+  margin-left: 28px;
+  margin-bottom: 20px;
+}
+
+.address-mono {
+  background: rgba(0, 0, 0, .08);
+  padding: 2px 8px;
+  margin-left: 4px;
+  font-size: 15px;
+  border-radius: 2px;
+}
+
+.address-mono a {
+  color: #3572c0;
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
 }
 
 @keyframes App-logo-spin {
