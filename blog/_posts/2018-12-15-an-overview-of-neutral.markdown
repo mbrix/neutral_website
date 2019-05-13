@@ -2,7 +2,8 @@
 layout: post
 title:  "An Overview of Neutral"
 date:   2018-12-15 12:00:00 -0400
-categories: jekyll update
+image: "https://cdn-images-1.medium.com/max/1600/1*hGwZtVI1L6MMbRTXsz5l8g.png"
+categories: posts
 ---
 
 # An Overview of Neutral
@@ -165,15 +166,3 @@ website](http://www.neutralproject.com/), follow us on
 [Telegram](https://t.me/neutralproject).
 
 Want to work with us? [We’re hiring](https://angel.co/neutral-1)!
-
-* [Blockchain](https://medium.com/tag/blockchain?source=post)
-* [Cryptocurrency](https://medium.com/tag/cryptocurrency?source=post)
-* [Finance](https://medium.com/tag/finance?source=post)
-* [Ethereum](https://medium.com/tag/ethereum?source=post)
-* [Decentralization](https://medium.com/tag/decentralization?source=post)
-
-### [Neutral](https://medium.com/@neutralproject)
-
-Neutral Dollar is a metastable basket of stablecoins. The result is a digital
-dollar which has lower volatility and combines fragmented pools of liquidity
-

@@ -2,7 +2,8 @@
 layout: post
 title:  "Visualizing Metastability"
 date:   2019-03-05 12:00:00 -0400
-categories: jekyll update
+image: "https://cdn-images-1.medium.com/max/1600/1*JhqxoaQpR1fMFKjr0GV5sA.png"
+categories: posts
 ---
 
 # Visualizing Metastability
@@ -90,7 +91,7 @@ metastable basket.
 
 We can see from this table that the PAX has 29% more volatility than NUSD, the
 second most robust stablecoin in this time period. Similarly, we can also
-interpret that DAI possesses more than *twice *the volatility of our stablecoin.
+interpret that DAI possesses more than *twice* the volatility of our stablecoin.
 Based on this table, we can conclude that Neutral Dollar is clearly a more
 compelling product than the rest.
 
@@ -173,7 +174,7 @@ probability density function, but the general idea is similar in that VaR always
 looks at potential drawdowns in one’s holdings.
 
 ![](https://cdn-images-1.medium.com/max/1600/0*tPZhwADVFVnheHzY)
-<span class="figcaption_hack">Source: [Wikipedia](https://en.wikipedia.org/wiki/Value_at_risk)</span>
+*Source: [Wikipedia](https://en.wikipedia.org/wiki/Value_at_risk)*
 
 For our experiment, we computed a historical daily 95% VaR metric across the
 available data we have. Not much assessment can be made from the graph below
@@ -381,15 +382,3 @@ If you’re interested in learning more about our team and products, [check out
 our website](http://www.neutralproject.com/) or start a conversation with us on
 [Telegram](https://t.me/neutralproject) or
 [Twitter](http://www.twitter.com/neutral_project).
-
-* [Cryptocurrency](https://medium.com/tag/cryptocurrency?source=post)
-* [Blockchain](https://medium.com/tag/blockchain?source=post)
-* [Decentralization](https://medium.com/tag/decentralization?source=post)
-* [Ethereum](https://medium.com/tag/ethereum?source=post)
-* [Stable Coin](https://medium.com/tag/stable-coin?source=post)
-
-### [Neutral](https://medium.com/@neutralproject)
-
-Neutral Dollar is a metastable basket of stablecoins. The result is a digital
-dollar which has lower volatility and combines fragmented pools of liquidity
-

@@ -2,7 +2,8 @@
 layout: post
 title:  "The Most Useful Aspect of Dai"
 date:   2019-04-12 12:00:00 -0400
-categories: jekyll update
+image: "https://cdn-images-1.medium.com/max/2400/1*i-fqnzSbcJiSm1d5oYxyuA.jpeg"
+categories: posts
 ---
 
 ![header image](https://cdn-images-1.medium.com/max/2400/1*i-fqnzSbcJiSm1d5oYxyuA.jpeg)
@@ -76,3 +77,10 @@ An intuitive way to describe it is that if one asset in your portfolio fluctuate
 Lastly, Neutral has developed an economic incentive where a user can obtain this superior exposure to underlying stablecoins by collateralizing individual stablecoins through decentralized order flow. That is, one can trade exposure to a single stablecoin, like Dai, for Neutral Dollar which represents exposure to many different stablecoins. A corollary is that one can redeem Neutral Dollar for any supported stablecoin. This means that parking stablecoin assets into Neutral Dollar can serve as a better hedging, trading, and investing instrument given its stability. If there is an application that is specific to any stablecoin at that point in time, then a user can redeem to their underlying asset of choice. The implementation of the construction process also accommodates for idiosyncrasies of underlying stablecoins. For example as long as Dai is properly collateralized to the fair value represented by the Neutral Dollar, then pricing and subsequent trading activity for the other stablecoins shouldn’t be too affected on a relative basis. In other words the Neutral Dollar system may see biases towards collateralization vs. redemption across all supported stablecoins, but should maintain equilibrium as Neutral Dollar scales up which is also completely verifiable on-chain.
 
 In conclusion Dai is useful because not only does it represent niche aspects of the crypto ecosystem, but the stablecoin is particularly more useful in the context of the Neutral Dollar, given its uncorrelated exposure to other underlying stablecoins. The whole is greater than the sum of its parts, which is why we believe the Neutral Dollar system offers the best attributes of every stablecoin while providing unrivaled optionality for all users.
+
+— — — —
+
+If you’re interested in learning more about our team and products, [check out
+our website](http://www.neutralproject.com/) or start a conversation with us on
+[Telegram](https://t.me/neutralproject) or
+[Twitter](http://www.twitter.com/neutral_project).

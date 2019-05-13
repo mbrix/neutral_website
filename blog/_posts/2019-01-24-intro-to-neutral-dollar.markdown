@@ -2,7 +2,8 @@
 layout: post
 title:  "Intro to Neutral Dollar"
 date:   2019-01-24 12:00:00 -0400
-categories: jekyll update
+image: "https://cdn-images-1.medium.com/max/2400/1*s8W2B7R8KpylRzu_IBYJOA.png"
+categories: posts
 ---
 
 # Intro to Neutral Dollar
@@ -54,7 +55,7 @@ price movements. This benefit from aggregating several different assets can be
 measured by a concept called diversification.
 
 ![](https://cdn-images-1.medium.com/max/1600/0*zXRIHCTZmJqcMyu6)
-<span class="figcaption_hack">The formula to calculate the variance of a portfolio</span>
+*The formula to calculate the variance of a portfolio*
 
 The diversification benefits from an aggregated basket is dependent to the
 individual weights and volatilities of the underlying components. The beauty of
@@ -216,15 +217,3 @@ If you’re interested in learning more about our team and products, [check out
 our website](http://www.neutralproject.com/) or start a conversation with us on
 [Telegram](https://t.me/neutralproject) or
 [Twitter](http://www.twitter.com/neutral_project).
-
-* [Blockchain](https://medium.com/tag/blockchain?source=post)
-* [Bitcoin](https://medium.com/tag/bitcoin?source=post)
-* [Stable Coin](https://medium.com/tag/stable-coin?source=post)
-* [Cryptocurrency](https://medium.com/tag/cryptocurrency?source=post)
-* [Fintech](https://medium.com/tag/fintech?source=post)
-
-### [Neutral](https://medium.com/@neutralproject)
-
-Neutral Dollar is a metastable basket of stablecoins. The result is a digital
-dollar which has lower volatility and combines fragmented pools of liquidity
-

@@ -2,7 +2,8 @@
 layout: post
 title:  "An Introduction to StableCoins"
 date:   2018-12-23 12:00:00 -0400
-categories: jekyll update
+image: "https://cdn-images-1.medium.com/max/2400/1*n_KS7xCga1yTo3aDfiK82g.png"
+categories: posts
 ---
 
 # An Introduction to StableCoins
@@ -48,10 +49,10 @@ and below is a broad highlight of the many stablecoin models out there.
 
 ![](https://cdn-images-1.medium.com/max/1600/0*GciYiVbnR-cP1f2J)
 
-From Blockchain’s [State of Stablecoins](https://www.blockchain.com/research)*
-*Report
+From Blockchain’s *[State of Stablecoins](https://www.blockchain.com/research)*
+Report
 
-* **The traditional (fiat-backed) stablecoin: **A token is issued for every
+* **The traditional (fiat-backed) stablecoin:** A token is issued for every
 associated real dollar value that is collateralized against it. Some notable
 coins that utilize this model are [TrueUSD](https://www.trusttoken.com/trueusd/)
 and USD Coin.
@@ -105,7 +106,7 @@ properly preserve its value. Lastly, possible inclusion of pricing oracles,
 pooled collateral, or interest yield in the design itself may influence public
 opinion about how credit-worthy and beneficial a stablecoin can be.
 
-Empirically, **fiat-backed stablecoins **are valued at a premium and observe
+Empirically, **fiat-backed stablecoins** are valued at a premium and observe
 less price volatility than **crypto-collateralized** stablecoins. People trust
 the concept that they should be able to redeem and maintain consistent value
 between the tokenized and fiat world. Progressions for easier redeemability can
@@ -148,24 +149,3 @@ If you’re interested in learning more about our team and products, [check out
 our website](http://www.neutralproject.com/) or start a conversation with us on
 [Telegram](https://t.me/neutralproject) or Twitter. If you want to get more
 involved with what we’re doing, don’t hesitate to reach out.
-
-* [Bitcoin](https://medium.com/tag/bitcoin?source=post)
-* [Blockchain](https://medium.com/tag/blockchain?source=post)
-* [Fintech](https://medium.com/tag/fintech?source=post)
-* [Cryptocurrency](https://medium.com/tag/cryptocurrency?source=post)
-* [Stable Coin](https://medium.com/tag/stable-coin?source=post)
-
-### [Neutral](https://medium.com/@neutralproject)
-
-Neutral Dollar is a metastable basket of stablecoins. The result is a digital
-dollar which has lower volatility and combines fragmented pools of liquidity
-
-### [Coinmonks](https://medium.com/coinmonks?source=footer_card)
-
-Coinmonks is a technology-focused publication embracing decentralize
-technologies We are Non-profit and education is our core value. Learn, Build and
-thrive. Our other project— [https://coinmonks.com](https://coinmonks.com/),
-[https://cryptofi.co](https://cryptofi.co/),
-[https://contentcat.me](https://contentcat.me/),
-[https://coincodecap.com](https://coincodecap.com/)
-

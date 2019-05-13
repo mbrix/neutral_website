@@ -2,7 +2,8 @@
 layout: post
 title:  "The Need for Many Stablecoins and a Metastable Basket"
 date:   2019-02-14 12:00:00 -0400
-categories: jekyll update
+image: "https://cdn-images-1.medium.com/max/1600/1*dW4FS0FThh7CDyBAsBlX1g.png"
+categories: posts
 ---
 
 # The Need for Many Stablecoins and a Metastable Basket
@@ -15,7 +16,7 @@ fact, since 2014, over $350mm in funding has gone into backing north of 60
 stablecoin-specific projects across the world.
 
 ![](https://cdn-images-1.medium.com/max/1600/0*jggpPQec44PY27CW)
-<span class="figcaption_hack">Source: [blockchain research](https://www.blockchain.com/research)</span>
+*Source: [blockchain research](https://www.blockchain.com/research)*
 
 Recently, an influx of projects pegged to the U.S. Dollar have been popping up
 all over and it’s understandably become hard to differentiate them from each
@@ -76,8 +77,8 @@ All these principles are all interrelated, which is why we think it is important
 for a stablecoin to exemplify all these traits on top of properties we’ve
 mentioned in our previous articles. More stability can draw in more demand, and
 with that can procure more utility. While we think Bitcoin is a good store of
-value*, we don’t think it can be a standard for every means of transactions in
-the form of a currency. *An inherently deflationary asset cannot maintain
+value, *we don’t think it can be a standard for every means of transactions in
+the form of a currency.* An inherently deflationary asset cannot maintain
 stability in tandem with demand, even if there is sustained perceived value and
 exceptional utility. This is why we see stablecoins as important — to serve as a
 bridge into crypto from ideas seen in the traditional world. By design,
@@ -94,8 +95,8 @@ especially explosive growth in 2018 and the start of 2019.
 Activity**
 
 ![](https://cdn-images-1.medium.com/max/1600/0*sTYCfSh76U5tNxE5)
-<span class="figcaption_hack">Source:[ stablecoin index](https://stablecoinindex.com/) and
-[coinmarketcap](https://coinmarketcap.com/charts/)</span>
+*Source:[ stablecoin index](https://stablecoinindex.com/) and
+[coinmarketcap](https://coinmarketcap.com/charts/)*
 
 Stablecoins can even be used as a quicker and more inexpensive form of
 cross-border payments than fiat mediums, making them one of the best methods for
@@ -103,10 +104,10 @@ remittance — an industry that, was standardized by the U.S. dollar, but still
 has its shortcomings.
 
 ![](https://cdn-images-1.medium.com/max/1600/0*slf9ViGRufBeCpzB)
-<span class="figcaption_hack">[Source](https://www.finder.com/remittance-fees-global-world); The high fees
+*[Source](https://www.finder.com/remittance-fees-global-world); The high fees
 reflect the cost of transactions from regulations, taxes, and operations.
 Stablecoins have the ability to transfer funds with less friction, time, and
-opacity</span>
+opacity*
 
 In essence, stablecoins are one of the most tangible methods that someone can
 understand and participate within the global community, impacting both fiat- and
@@ -142,7 +143,7 @@ a metastable basket which enables users to lessen any reservations they have
 with any single stablecoin, while allowing them to take advantage of any
 constituent through our enabled stablecoin swap. By satisfying the need for a
 metastable design, we can offer better **stability** as a stablecoin. We hope to
-improve **utility **by expanding our services and partnerships in order to
+improve **utility** by expanding our services and partnerships in order to
 increase overall **demand**. A Neutral Dollar holder not only inherits all of
 the benefits of the basket itself, but can also take advantage of any underlying
 token to address whatever stablecoin use case is needed. The open-ended design
@@ -162,14 +163,3 @@ If you’re interested in learning more about our team and products, [check out
 our website](http://www.neutralproject.com/) or start a conversation with us on
 [Telegram](https://t.me/neutralproject) or
 [Twitter](http://www.twitter.com/neutral_project).
-
-* [Bitcoin](https://hackernoon.com/tagged/bitcoin?source=post)
-* [Cryptocurrency](https://hackernoon.com/tagged/cryptocurrency?source=post)
-* [Stable Coin](https://hackernoon.com/tagged/stable-coin?source=post)
-* [Blockchain](https://hackernoon.com/tagged/blockchain?source=post)
-* [Fintech](https://hackernoon.com/tagged/fintech?source=post)
-
-### [Neutral](https://hackernoon.com/@neutralproject)
-
-Neutral Dollar is a metastable basket of stablecoins. The result is a digital
-dollar which has lower volatility and combines fragmented pools of liquidity

@@ -2,7 +2,8 @@
 layout: post
 title:  "Case Study of Huobi’s HUSD Solution"
 date:   2019-01-29 12:00:00 -0400
-categories: jekyll update
+image:   "https://cdn-images-1.medium.com/max/1600/1*LkpHYcWPum_xd6o2643vpg.png"
+categories: posts
 ---
 
 # Case Study of Huobi’s HUSD Solution
@@ -18,7 +19,7 @@ USD (TUSD), USD Coin (USDC) and Gemini Dollars (GUSD). Users can use these
 stablecoins on their exchange, where these four tokens are represented under one
 quote currency titled HUSD.
 
-Interestingly enough, this rollout was revealed only *3 months *after the launch
+Interestingly enough, this rollout was revealed only *3 months* after the launch
 of the [first
 version](https://huobiglobal.zendesk.com/hc/en-us/articles/360000170601-Announcement-on-the-Launch-of-HUSD-solution-on-Huobi-Global).
 What went wrong? The purpose of this article is to highlight HUSD’s design flaws
@@ -35,7 +36,7 @@ fiat-backed stablecoins — which means all of them can be exchanged for 1 USD.
 The intent was to make it easier for people to trade against different,
 supported stablecoin pairs. What was overlooked in this service is that
 *stablecoins are not interchangeable on a 1:1 basis even though they are
-equivalent in redeemable value. *There are many reasons why they aren’t the
+equivalent in redeemable value.* There are many reasons why they aren’t the
 same, and all of these contributed to the events that unrolled.
 
 These stablecoins all have different:
@@ -76,7 +77,7 @@ Paxos Standard accounts were frozen or closed indefinitely — with some amounts
 in the millions.
 
 ![](https://cdn-images-1.medium.com/max/1600/0*fcAIdull4CdBmuIy)
-<span class="figcaption_hack">Mildly invasive questions asked by Paxos Standard</span>
+*Mildly invasive questions asked by Paxos Standard*
 
 Making matters worse was the fact that traders were also [circumventing the
 light KYC/AMC restrictions on
@@ -85,8 +86,8 @@ To work around the $10,000 withdrawal limit imposed by the company, people
 created many accounts to move more funds than typically allowed.
 
 ![](https://cdn-images-1.medium.com/max/1600/0*vW9vnrnHHelYvRvq)
-<span class="figcaption_hack">One of Huobi’s wallets showing PAX outflow under the 10,000 limit. Src:
-[etherscan](https://etherscan.io/token/0x8e870d67f660d95d5be530380d0ec0bd388289e1?a=0x6748f50f686bfbca6fe8ad62b22228b87f31ff2b)</span>
+*One of Huobi’s wallets showing PAX outflow under the 10,000 limit. Src:
+[etherscan](https://etherscan.io/token/0x8e870d67f660d95d5be530380d0ec0bd388289e1?a=0x6748f50f686bfbca6fe8ad62b22228b87f31ff2b)*
 
 In response to all of this activity, Huobi needed to go back to the drawing
 board to conceptualize a new design for the solution because the original was
@@ -98,8 +99,8 @@ analysis on the total inflows and outflows from Huobi wallets for these
 stablecoins during the duration of v1.0.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*N0i7N3U8qzuBcM51ZA1RaA.png)
-<span class="figcaption_hack">Huobi wallet activities, Src:
-[etherscan](https://etherscan.io/accounts?l=Exchange)</span>
+*Huobi wallet activities, Src:
+[etherscan](https://etherscan.io/accounts?l=Exchange)*
 
 With this view, it’s hard to fully assess what flow activity can be attributed
 directly towards arbitrage or for HUSD’s intended solution. We can get a clearer
@@ -109,8 +110,8 @@ transfers are for operational usage while external transfers are derived from
 activity to arbitrage.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*x5Fxu-ghFqX00AO5ktIHAA.png)
-<span class="figcaption_hack">The inflow and outflow numbers for in-between transfers are shown as a sanity
-check and to avoid double counting</span>
+*The inflow and outflow numbers for in-between transfers are shown as a sanity
+check and to avoid double counting*
 
 ![](https://cdn-images-1.medium.com/max/1600/0*FL64Ee3eUAr55sbM)
 
@@ -219,14 +220,3 @@ If you’re interested in learning more about our team and products, [check out
 our website](http://www.neutralproject.com/) or start a conversation with us on
 [Telegram](https://t.me/neutralproject) or
 [Twitter](http://www.twitter.com/neutral_project).
-
-* [Bitcoin](https://hackernoon.com/tagged/bitcoin?source=post)
-* [Cryptocurrency](https://hackernoon.com/tagged/cryptocurrency?source=post)
-* [Fintech](https://hackernoon.com/tagged/fintech?source=post)
-* [Blockchain](https://hackernoon.com/tagged/blockchain?source=post)
-* [Stable Coin](https://hackernoon.com/tagged/stable-coin?source=post)
-
-### [Neutral](https://hackernoon.com/@neutralproject)
-
-Neutral Dollar is a metastable basket of stablecoins. The result is a digital
-dollar which has lower volatility and combines fragmented pools of liquidity

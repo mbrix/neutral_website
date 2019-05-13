@@ -2,14 +2,15 @@
 layout: post
 title:  "Follow Up on Huobi’s HUSD v2.0 Solution"
 date:   2019-03-01 12:00:00 -0400
-categories: jekyll update
+image: "https://cdn-images-1.medium.com/max/1600/1*ImQZ2ubOcChaiEUwKSJF2w.png"
+categories: posts
 ---
 
 # Follow Up on Huobi’s HUSD v2.0 Solution
 
 ![](https://cdn-images-1.medium.com/max/1600/1*ImQZ2ubOcChaiEUwKSJF2w.png)
 
-*We want to give special thanks to *[TRM](https://medium.com/trm-perspectives)*
+*We want to give special thanks to [TRM](https://medium.com/trm-perspectives)
 for helping co-review and co-research this analysis. TRM is rolling out
 analytical solutions to monitor blockchain activity for the purpose of
 identifying what channels and user groups drive growth.*
@@ -301,8 +302,7 @@ the impact of offline agreements for discounts can be argued on who actually
 benefits the most (probably not the retail users). With this all occurring in
 the backdrop, many projects are looking to provide services on top of the
 existing industry activity to address different stablecoin needs such as Huobi,
-[XBTO](https://www.financemagnates.com/cryptocurrency/innovation/xbto-and-former-tether-exec-to-launch-stablecoin-clearinghouse/),**
-**and ourselves.
+[XBTO](https://www.financemagnates.com/cryptocurrency/innovation/xbto-and-former-tether-exec-to-launch-stablecoin-clearinghouse/), and ourselves.
 
 We believe that Huobi’s version 2.0 of HUSD is avoiding large losses like what
 we saw in version 1.0, but it’s hard to estimate success on whether it’s
@@ -316,8 +316,8 @@ worth than from its redeemable value, which can be a difficult problem to
 assess. From our investigation, we’ve found that inventory management can be
 hard to implement in practice, and diversifying asset exposure can be tricky to
 navigate while avoiding losses. For a stablecoin basket to be effective, there
-must be *careful review of the collective position targets and pricing mechanics
-*in order to rebalance stablecoin reserves effectively.** **Going back to our
+must be *careful review of the collective position targets and pricing mechanics*
+in order to rebalance stablecoin reserves effectively. Going back to our
 criteria on what makes a successful basket, we can see whether HUSD v2.0 did
 match all these requirements:
 
@@ -343,7 +343,7 @@ directly in the markets for all types of users. The current design causes
 limitations on its offerings, and major alterations might be required for more
 successes to materialize on Huobi’s businesses. *We believe an open-end
 construct by design can align incentives and offer better transparency along
-with liquidity. *We also conclude that **not all metastable solutions are
+with liquidity.* We also conclude that **not all metastable solutions are
 equal**, and design flaws can limit the ability to have meaningful impact.
 Neutral believes wholeheartedly that our [metastable
 basket](https://medium.com/@neutralproject/intro-to-neutral-dollar-98f95d1ff9f4)
@@ -357,15 +357,3 @@ If you’re interested in learning more about our team and products, [check out
 our website](http://www.neutralproject.com/) or start a conversation with us on
 [Telegram](https://t.me/neutralproject) or
 [Twitter](http://www.twitter.com/neutral_project).
-
-* [Stable Coin](https://medium.com/tag/stable-coin?source=post)
-* [Blockchain](https://medium.com/tag/blockchain?source=post)
-* [Fintech](https://medium.com/tag/fintech?source=post)
-* [Cryptocurrency](https://medium.com/tag/cryptocurrency?source=post)
-* [Decentralization](https://medium.com/tag/decentralization?source=post)
-
-### [Neutral](https://medium.com/@neutralproject)
-
-Neutral Dollar is a metastable basket of stablecoins. The result is a digital
-dollar which has lower volatility and combines fragmented pools of liquidity
-
