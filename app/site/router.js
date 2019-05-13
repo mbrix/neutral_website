@@ -25,6 +25,10 @@ router.get('/careers.html', (req, res) => {
   res.render('site/careers');
 });
 
+router.get('/status.html', (req, res) => {
+  res.render('site/status');
+});
+
 router.get('/download.html', (req, res) => {
   res.render('site/download');
 });
