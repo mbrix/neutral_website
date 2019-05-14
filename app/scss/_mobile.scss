@@ -17,6 +17,13 @@
   .email-signup, .email {
     width: 100% !important;
   }
+
+  a.telegram-button {
+    font-size: 14px;
+    background-size: 22px;
+    padding: 10px 12px 10px 36px;
+    background-position: 8px;
+  }
 }
 
 @media(max-width: 991px) {
