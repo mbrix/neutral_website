@@ -22,9 +22,9 @@ For the uninitiated, we encourage all of you to check out the rest of [Medium ](
 
 # Acquiring and Using NUSD
 
-Neutral Dollar can be acquired natively by contributing one of the four component stablecoins (USDC, PAX, DAI, TUSD) through our [Neutral platform](https://neutralproject.com/download.html). For instructions on how to navigate our user interface, please refer to one of our [infographic](https://blog.neutralproject.com/posts/2019/05/16/navigating-neutral-dollar.markdown.htm). Once a user acquires Neutral Dollar, he or she can send the token to other addresses or accounts. We will be rolling out several different use cases for Neutral Dollar such as storage, trading, and lending with several of our partners over the coming launch campaign.
+Neutral Dollar can be acquired natively by contributing one of the four component stablecoins (USDC, PAX, DAI, TUSD) through our [Neutral platform](https://neutralproject.com/download.html). For instructions on how to navigate our user interface, please refer to one of our [infographic](https://blog.neutralproject.com/posts/2019/05/14/navigating-neutral-dollar.html). Once a user acquires Neutral Dollar, he or she can send the token to other addresses or accounts. We will be rolling out several different use cases for Neutral Dollar such as storage, trading, and lending with several of our partners over the coming launch campaign.
 
-**Important Read!** -- For a duration starting on May 16th, we will initiate a time called the 'initial contribution period'. Users at this time can collateralize any supported stablecoin for Neutral Dollar at fair value. This period is dedicated to bootstrapping our stablecoin, so during this time all redemptions are disabled. Once May 20th passes, users can continuously redeem NUSD for any component stablecoin through our interface as normally intended.
+**Important Read!** -- For a duration starting on May 15th 2019, we will initiate a time called the ‘initial contribution period’. Users at this time can collateralize any supported stablecoin for Neutral Dollar at fair value. This period is dedicated to bootstrapping our stablecoin, so during this time all redemptions are disabled. Once it is May 20th, users can continuously redeem NUSD for any component stablecoin through our interface as normally intended.
 
 In addition users can acquire Neutral Dollar on supported exchanges just like any other cryptoasset, details which we will reveal as they are officially announced (updates will be announced as they come).
 
@@ -34,7 +34,7 @@ If any enthusiasts would like to more closely engage with the Neutral team to co
 
 # FAQ
 
-We have created an FAQ to help out some users also understand our company, mission, and products. For more information, please refer to [here](https://blog.neutralproject.com/posts/2019/05/16/what-is-neutral-frequently-asked-questions.html).
+We have created an FAQ to help out some users also understand our company, mission, and products. For more information, please refer to [here](https://blog.neutralproject.com/posts/2019/05/14/what-is-neutral.html).
 
 --- --- --- ---
 
