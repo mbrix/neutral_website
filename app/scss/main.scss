@@ -704,3 +704,13 @@ header.interior {
     box-shadow: 0 2px 8px rgba(0, 0, 0, .12);
   }
 }
+
+.infographic-hint {
+  text, a {
+    font-weight: bold;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}
