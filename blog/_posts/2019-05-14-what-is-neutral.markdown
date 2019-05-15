@@ -30,13 +30,13 @@ Our network extends also to wallets platforms, financial institutions, and excha
 ### *What are the social channels I can listen in on?*
 We definitely encourage all of you to stay engaged with us, and can find us through several avenues:
 
-[Telegram] (https://t.me/neutralproject)
+[Telegram](https://t.me/neutralproject)
 
-[Twitter] (https://twitter.com/neutral_project)
+[Twitter](https://twitter.com/neutral_project)
 
-[Medium] (https://medium.com/@neutralproject)
+[Medium](https://medium.com/@neutralproject)
 
-[Linkedin]( https://www.linkedin.com/company/neutralproject/)
+[Linkedin](https://www.linkedin.com/company/neutralproject/)
 
 # Product
 

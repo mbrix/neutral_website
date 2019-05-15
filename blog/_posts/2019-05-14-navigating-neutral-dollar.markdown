@@ -6,17 +6,19 @@ image: "https://cdn-images-1.medium.com/max/1440/1*IKY6mTLpxp5htikdK4wmAw.jpeg"
 categories: posts
 ---
 
-# Navigating Neutral Dollar Infographic
+# Navigating Neutral Dollar
 
 ![](https://cdn-images-1.medium.com/max/1440/1*IKY6mTLpxp5htikdK4wmAw.jpeg)
 
 **Accessing the Platform**
 
-Neutral Dollar (NUSD) is an innovative, fully-collateralized stablecoin backed by a basket of stablecoins, initially comprising of USDC, PAX, DAI, and TUSD. Users can contribute any individually supported stablecoin through the [Neutral platform](https://neutralproject.com/download.html)
+Neutral Dollar (NUSD) is an innovative, fully-collateralized stablecoin backed by a basket of stablecoins, initially comprising of USDC, PAX, DAI, and TUSD. Users can contribute any individually supported stablecoin through the [Neutral platform](https://neutralproject.com/download.html).
 
 Below are steps work through our platform  and engage with our token. We encourage you all to listen in to our social channels if you have any questions!
 
-![](https://cdn-images-1.medium.com/max/720/1*s-2ZcuPX1ChH5RaMUgnoHA.png)
+*A CN(中文) version can be found [here](https://cdn-images-1.medium.com/max/720/1*1Qd2bjByS4vKKh_Azpu4bQ.png)*
+
+![](https://cdn-images-1.medium.com/max/1400/1*1hUGI1MaQMy2HD44zL508A.png)
 
 — —
 
