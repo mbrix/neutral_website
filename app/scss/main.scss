@@ -714,3 +714,71 @@ header.interior {
     text-decoration: underline;
   }
 }
+
+.press-link {
+  display: inline-block;
+  height: 54px;
+  width: 100%;
+}
+
+.press-quote {
+  color: rgba(0, 0, 0, .87);
+}
+
+.press-small .press-link {
+  height: 32px;
+}
+
+.press-no-bg {
+  width: 100%;
+  height: 100%;
+  padding-top: 6px;
+}
+
+.press-bg {
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+  .bg-coindesk {
+    background-image: url('images/logos/coindesk.png');
+  }
+
+  .bg-theinformation {
+    background-image: url('images/logos/theinformation.svg');
+  }
+
+  .bg-nasdaq {
+    background-image: url('images/logos/nasdaq.png');
+  }
+
+  .bg-chainnews {
+    background-image: url('images/logos/chainnews.svg');
+  }
+
+  .bg-jinse {
+    background-image: url('images/logos/jinse.svg');
+  }
+
+  .bg-bishijie {
+    background-image: url('images/logos/bishijie.png')
+  }
+
+  .bg-yahoo {
+    background-image: url('images/logos/yahoo.png');
+  }
+
+  .bg-investorideas {
+    background-image: url('images/logos/investorideas.png');
+  }
+
+  .bg-coinrivet {
+    background-image: url('images/logos/coinrivet.png');
+  }
+
+  .bg-cryptoreporter {
+    background-image: url('images/logos/cryptoreporter.png');
+  }
