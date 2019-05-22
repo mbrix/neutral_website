@@ -33,6 +33,10 @@ router.get('/download.html', (req, res) => {
   res.render('site/download');
 });
 
+router.get('/token-profile.html', (req, res) => {
+  res.render('site/token-profile');
+});
+
 
 router.get('/', (_, res) => res.redirect(301, '/index.html'));
 
