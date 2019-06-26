@@ -98,6 +98,12 @@ nav:not(i) {
   padding-left: 1em;
   margin-left: 1em;
   border-left: 1px solid rgba(255, 255, 255, .8);
+
+  a {
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 3px 16px;
+  }
 }
 
 header.interior nav a {
@@ -820,5 +826,13 @@ header.interior {
 
   .bg-bamboo-relay {
     background-image: url('images/logos/bamboorelay.svg');
+  }
+
+  .bg-dapptotal {
+    background-image: url('images/logos/dapptotal.png');
+  }
+
+  .bg-defipulse {
+    background-image: url('images/logos/defipulse.png');
   }
 
