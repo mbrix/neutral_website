@@ -26,12 +26,14 @@ html(lang="en")
                 a(href='/how-it-works.html') How It Works
               li.nav-item.mb-3.mb-md-0.mr-0(class=active == 'exchanges' ? 'active' : '')
                 a(href='/exchanges.html') Exchanges
-              li.nav-item.mb-3.mb-md-0.mr-0(class=active == 'team' ? 'active' : '')
-                a(href='/team.html') Team
-              li.nav-item(class=active == 'careers' ? 'active' : '')
-                a(href='/careers.html') Careers
-              li.nav-item(class=active == 'blog' ? 'active' : '')
-                a(href='https://blog.neutralproject.com/') Blog
+              li.nav-item.nav-dropdown
+                a.nav-dropdown-toggle(href="#") Company
+                div.nav-dropdown-menu
+                  a.nav-dropdown-item(href="https://blog.neutralproject.com") Blog
+                  a.nav-dropdown-item(href="/team.html" class=active == 'team' ? 'active' : '') Team
+                  a.nav-dropdown-item(href="/careers.html" class=active == 'careers' ? 'active' : '') Careers
+              li.nav-item.mb-3.mb-md-0.mr-0
+                a(href='https://docs.neutralproject.com') Developers
               li.nav-download.nav-item(class=active == 'download' ? 'active' : '')
                 a(href='/download.html') Get Neutral
 
@@ -90,4 +92,5 @@ html(lang="en")
         });
       });
     script(type='text/javascript' src='/js/hero-lights.js')
+    script(type='text/javascript' src='/js/nav.js')
     script(type='text/javascript' src='/js/downloads.js')
